@@ -8,7 +8,7 @@ import starbucks4 from "./../../assets/starbucks4.png";
 export default function Compliments() {
     
       return (
-        <div className = "flex flex-row justify-center space-x-2">
+        <div className = "flex flex-row justify-center space-x-2 mt-2 ">
             <img src={ starbucks1 } alt="" className="w-24 md:w-32" />
             <img src={ starbucks2 } alt="" className="w-24 md:w-32" />
             <img src={ starbucks3 } alt="" className="w-24 md:w-32" />
