@@ -1,6 +1,5 @@
 import React from "react";
 import Blurb from "./Blurb";
-import Resume from "./Resume";
 import Compliments from "./Compliments";
 
 
