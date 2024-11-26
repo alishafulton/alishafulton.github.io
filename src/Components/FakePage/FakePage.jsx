@@ -36,8 +36,9 @@ export default function FakePage () {
     return (
         <div>
             <div className="flex-col max-w-4xl justify-items-center ">
-            🚧  Currently Under Construction  🚧
-            </div>
+            🚧  Currently Under Construction!  🚧
+<br/>
+Current as of Nov 26        </div>
 
 
          <div>
