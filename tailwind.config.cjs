@@ -4,6 +4,19 @@ module.exports = {
     './src/components/**/*.{html,js,jsx,ts,tsx}', 
   './src/pages/**/*.{html,js,jsx,ts,tsx}', 
 './src/components/**/*.{html,js,jsx,ts,tsx}'],
+
+safelist: [
+  '!duration-[0ms]',
+  '!delay-[0ms]',
+  'html.js :where([class*="taos:"]:not(.taos-init))'
+],
+
+safelist: [
+  '!duration-[0ms]',
+  '!delay-[0ms]',
+  'html.js :where([class*="taos:"]:not(.taos-init))'
+],
+
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
