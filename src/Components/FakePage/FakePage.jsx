@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import coast1 from '../../assets/Coast1.png';
+import coast2 from '../../assets/Coast2.png';
+import coast3 from '../../assets/Coast3.png';
 
 
 
@@ -35,7 +37,8 @@ export default function FakePage () {
         <div>
             <div className="flex-col max-w-4xl justify-items-center ">
                 <img src={ coast1 } alt="" className="p-0" />
-                <div class="delay-[300ms] duration-[600ms] taos:translate-y-[100%] taos:opacity-0" data-taos-offset="300"></div>
+                <div class="delay-[300ms] duration-[600ms] taos:translate-y-[100%] taos:opacity-0" data-taos-offset="300"><coast2/></div>
+                <div class="delay-[300ms] duration-[600ms] taos:translate-y-[100%] taos:opacity-0" data-taos-offset="300"><coast3/></div>
             </div>
 
 
