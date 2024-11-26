@@ -3,6 +3,7 @@ import coast1 from '../../assets/Coast1.png';
 
 
 
+
 export default function FakePage () {
 
     const [showBtn, setShowBtn] = useState("myBtn none");
@@ -34,7 +35,7 @@ export default function FakePage () {
         <div>
             <div className="flex-col max-w-4xl justify-items-center ">
                 <img src={ coast1 } alt="" className="p-0" />
-                hi
+                <div class="delay-[300ms] duration-[600ms] taos:translate-y-[100%] taos:opacity-0" data-taos-offset="300"></div>
             </div>
 
 
@@ -46,6 +47,6 @@ export default function FakePage () {
             title="Go to top" >top
             </button>
          </div>
- </div>
+     </div>
     );
 };
