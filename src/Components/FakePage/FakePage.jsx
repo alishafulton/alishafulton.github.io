@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import coast1 from '../../assets/Coast1.png';
-import CoastPrototype from './CoastPrototype';
 
 
 
@@ -35,7 +34,6 @@ export default function FakePage () {
         <div>
             <div className="flex-col max-w-4xl justify-items-center ">
                 <img src={ coast1 } alt="" className="p-0" />
-                <CoastPrototype />
                 hi
             </div>
 
