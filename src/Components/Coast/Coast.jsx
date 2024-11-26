@@ -44,14 +44,14 @@ export default function Coast () {
     return (
         <div>
         <div className="flex-col max-w-3xl justify-items-center ">
-        <img src={ coast1 } alt="" className="p-0" data-aos="slide-up"/>
+        <img src={ coast1 } alt="" className="p-0" data-aos="fade-up"/>
         <CoastPrototype data-aos="slide-up"/>
-        <img src={ coast2 } alt="" className="p-0" data-aos="slide-up"/>
-        <img src={ coast3 } alt="" className="p-0" data-aos="slide-up"/>
-        <img src={ coast4 } alt="" className="p-0" data-aos="slide-up"/>
-        <img src={ coast5 } alt="" className="p-0" data-aos="slide-up"/>
-        <img src={ coast6 } alt="" className="p-0" data-aos="slide-up"/>
-            <img src={ coast7 } alt="" className="p-0" data-aos="slide-up"/>
+        <img src={ coast2 } alt="" className="p-0" data-aos="fade-up"/>
+        <img src={ coast3 } alt="" className="p-0" data-aos="fade-up"/>
+        <img src={ coast4 } alt="" className="p-0" data-aos="fade-up"/>
+        <img src={ coast5 } alt="" className="p-0" data-aos="fade-up"/>
+        <img src={ coast6 } alt="" className="p-0" data-aos="fade-up"/>
+            <img src={ coast7 } alt="" className="p-0" data-aos="fade-up"/>
 
         </div>
 
