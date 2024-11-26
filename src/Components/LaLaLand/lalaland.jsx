@@ -44,7 +44,7 @@ export default function LaLaLand () {
 
     return (
         <div>
-            <div className="flex flex-col max-w-4xl justify-center justify-items-center ">
+            <div className="flex flex-col max-w-2xl justify-center justify-items-center ">
 
                 <div className="flex">
                     <img src={ lalacover } className="w-full" />

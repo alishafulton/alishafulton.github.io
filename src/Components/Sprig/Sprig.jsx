@@ -38,7 +38,7 @@ export default function Sprig () {
 
     return (
         <div>
-            <div className="flex-col max-w-4xl justify-items-center ">
+            <div className="flex-col max-w-3xl justify-items-center ">
               <img src = {sprigcover} alt="" />
               <SprigPrototype/>
               <img src = {sprig1} alt="" />
