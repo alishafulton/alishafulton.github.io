@@ -10,6 +10,7 @@ import Coast from './Components/Coast/Coast.jsx';
 import Sprig from './Components/Sprig/Sprig.jsx';
 import Channel from './Components/Channel/Channel.jsx';
 import LaLaLand from './Components/LaLaLand/lalaland.jsx';
+import FakePage from './Components/FakePage/FakePage.jsx';
 
 
 
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
       {
         path: "/lalaland",
         element: <LaLaLand />
+      },
+      {
+        path: "/tester",
+        element: <FakePage />
       },
     ],
   },
