@@ -11,7 +11,7 @@ import 'aos/dist/aos.css';
 export default function App () {
   useEffect(() => {
     AOS.init({
-    duration: 800, // Global animation duration
+    duration: 1200, // Global animation duration
     once: true, // Only once animation
     });
     }, []);
