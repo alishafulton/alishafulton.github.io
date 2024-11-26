@@ -35,10 +35,10 @@ export default function FakePage () {
 
     return (
         <div>
-            <div className="flex-col max-w-4xl justify-items-center ">
+            <div className="flex-col max-w-4xl justify-center ">
             🚧  Currently Under Construction!  🚧
 <br/>
-Current as of Nov 26        </div>
+as of Nov 26  :)      </div>
 
 
          <div>
