@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import sprig1 from './../../assets/sprig1.png';
 import sprig2 from './../../assets/sprig2.png';
+import sprig3 from './../../assets/sprig3.png';
 import sprigcover from './../../assets/sprigcover.png';
 import SprigPrototype from './SprigPrototype';
 
@@ -42,6 +43,7 @@ export default function Sprig () {
               <SprigPrototype/>
               <img src = {sprig1} alt="" />
               <img src = {sprig2} alt="" />
+              <img src = {sprig3} alt="" />
             </div>
 
 
