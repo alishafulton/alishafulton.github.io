@@ -36,9 +36,7 @@ export default function FakePage () {
     return (
         <div>
             <div className="flex-col max-w-4xl justify-items-center ">
-                <img src={ coast1 } alt="" className="p-0" />
-                <div class="delay-[300ms] duration-[600ms] taos:translate-y-[100%] taos:opacity-0" data-taos-offset="300"><coast2/></div>
-                <div class="delay-[300ms] duration-[600ms] taos:translate-y-[100%] taos:opacity-0" data-taos-offset="300"><coast3/></div>
+            🚧  Currently Under Construction  🚧
             </div>
 
 
