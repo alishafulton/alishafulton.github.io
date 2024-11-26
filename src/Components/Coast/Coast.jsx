@@ -43,7 +43,7 @@ export default function Coast () {
 
     return (
         <div>
-        <div className="flex-col max-w-4xl justify-items-center ">
+        <div className="flex-col max-w-3xl justify-items-center ">
         <img src={ coast1 } alt="" className="p-0" data-aos="slide-up"/>
         <CoastPrototype data-aos="slide-up"/>
         <img src={ coast2 } alt="" className="p-0" data-aos="slide-up"/>
