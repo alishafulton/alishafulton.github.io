@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "./logo";
-import { Spotify } from "react-spotify-embed";
+import { NavLink } from "react-router-dom";
 
 
 export default function Footer () {
