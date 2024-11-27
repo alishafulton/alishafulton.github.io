@@ -51,7 +51,7 @@ export default function Coast () {
         <img src={ coast4 } alt="" className="p-0" data-aos="fade-up"/>
         <img src={ coast5 } alt="" className="p-0" data-aos="fade-up"/>
         <img src={ coast6 } alt="" className="p-0" data-aos="fade-up"/>
-            <img src={ coast7 } alt="" className="p-0" data-aos="fade-up"/>
+        <img src={ coast7 } alt="" className="p-0" data-aos="fade-up"/>
 
         </div>
 
