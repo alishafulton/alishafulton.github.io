@@ -40,7 +40,7 @@ export default function Coast () {
       <div>
     <div className="flex w-full justify-center bg-coast-logo bg-scroll bg-contain bg-top overflow-auto bg-no-repeat">
      
-     // this is the scrolling container, width defined
+
       <div className="flex flex-col w-full h-screen justify-center" >
 
           <div>
