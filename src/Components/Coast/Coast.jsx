@@ -40,8 +40,9 @@ export default function Coast () {
       <div className="flex w-full ">
     <div className="flex w-full justify-center bg-coast-logo bg-scroll bg-contain bg-top overflow-auto bg-no-repeat">
       <div className="flex flex-col w-full h-screen" >
-          <div className="flex w-full py-96 sm:text-4xl lg:text-8xl font-coast justify-center">
-            COAST
+          <div className="flex w-full py-96 justify-items-center">
+            <div className="sm:text-4xl lg:text-8xl font-coast">COAST</div>
+            <div className="sm:text-xl lg:text-2xl font-sans bg-black bg-opacity-30 border-2 rounded">UX/UI Case Study</div>
           </div>
 
           <CoastPrototype data-aos="slide-up"/>
