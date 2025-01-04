@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import slogo from '../../assets/s_logo.png';
 import coast1 from '../../assets/Coast1.png';
 import coast2 from '../../assets/Coast2.png';
 import coast3 from '../../assets/Coast3.png';
@@ -44,6 +45,9 @@ export default function Coast () {
     return (
         <div>
         <div className="flex-col max-w-3xl justify-items-center ">
+          <div>
+            <img src= { slogo } alt="" className="w-1/3 h-1/3" data-aos="fade-up"/>
+          </div>
         <img src={ coast1 } alt="" className="p-0" data-aos="fade-up"/>
         <CoastPrototype data-aos="slide-up"/>
         <img src={ coast2 } alt="" className="p-0" data-aos="fade-up"/>
