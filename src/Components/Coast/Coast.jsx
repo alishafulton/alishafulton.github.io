@@ -46,7 +46,7 @@ export default function Coast () {
     <div>
         <div className="flex-col max-w-3xl justify-items-center" >
 
-          <div className="flex w-full bg-coast-logo bg-scroll">
+          <div className="bg-scroll bg-contain bg-coast-logo overflow-auto w-full h-full">
             <div className="text-lg font-coast self-center">COAST</div>
           </div>
        
