@@ -20,9 +20,7 @@ safelist: [
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-
       height: {
-
         '500': '500px'
       },
       letterSpacing: {
@@ -40,17 +38,21 @@ safelist: [
         fancy: ["Inter", "fancy"],
         coast: ["Futura", "coast"],
         },
-    colors: {
-      transparent: 'transparent',
-      black: '#131514',
-      tan: '#FAFAFA',
-      pink: '#FF5666',
-      orange: '#FF785A',
-      green: '#41A039',
-      blue: '#335FCF',
-      purple: '#BEA7E5',
-      white: '#FAFAFA',
-    },},
+      colors: {
+        transparent: 'transparent',
+        black: '#131514',
+        tan: '#FAFAFA',
+        pink: '#FF5666',
+        orange: '#FF785A',
+        green: '#41A039',
+        blue: '#335FCF',
+        purple: '#BEA7E5',
+        white: '#FAFAFA',
+      },
+      backgroundImage: {
+        'coast-logo': "url('/src/assets/s_logo.png')",
+      },
+    },
   corePlugins: []
 }
 }                     
