@@ -16,7 +16,7 @@ export default function App () {
     });
     }, []);
   return (
-    <div className="flex flex-col justify-center justify-items-center">
+    <div className="flex flex-col min-h-screen justify-center justify-items-center">
       <div className="sticky top-0 z-50 flex justify-center items-center">
         <div className="w-full">
           <Navbar/>
