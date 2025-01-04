@@ -4,7 +4,7 @@ import CoastPrototype from './CoastPrototype';
 export default function Coast () {
 
     return (
-      <div className="flex flex-col w-full">
+      <div>
     <div className="flex w-full justify-center bg-coast-logo bg-scroll bg-contain bg-top overflow-auto bg-no-repeat">
      
 
