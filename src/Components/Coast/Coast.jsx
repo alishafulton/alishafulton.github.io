@@ -12,7 +12,7 @@ export default function Coast () {
             <div className="flex justify-center"><div className="flex justify-center text-sm font-sans w-24 bg-black bg-opacity-20 border-black border-2 rounded-lg px-4">UX/UI Case Study</div>
           </div></div>
 
-          <CoastPrototype className="flex w-full" data-aos="slide-up"/>
+          <div className="flex w-full justify-center" data-aos="slide-up"><CoastPrototype/></div>
           </div>
 
 
