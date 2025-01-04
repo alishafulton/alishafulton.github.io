@@ -1,12 +1,6 @@
 import React, { useState } from 'react';
 import slogo from '../../assets/s_logo.png';
-import coast1 from '../../assets/Coast1.png';
-import coast2 from '../../assets/Coast2.png';
-import coast3 from '../../assets/Coast3.png';
-import coast4 from '../../assets/Coast4.png';
-import coast5 from '../../assets/Coast5.png';
-import coast6 from '../../assets/Coast6.png';
-import coast7 from '../../assets/Coast7.png';
+
 import CoastPrototype from './CoastPrototype';
 
 // i imported all of my sections of my portfolio
@@ -43,7 +37,7 @@ export default function Coast () {
 
 
     return (
-    <div className="bg-coast-logo bg-scroll bg-contain bg-top overflow-auto bg-no-repeat">
+    <div className="flex w-full max-w-3xl bg-coast-logo bg-scroll bg-contain bg-top overflow-auto bg-no-repeat">
       <div className="flex flex-col w-3xl justify-items-center " >
           <div className="flex w-full py-48 sm:text-4xl lg:text-8xl font-coast justify-center">
             COAST
