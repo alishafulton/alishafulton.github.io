@@ -43,7 +43,7 @@ export default function Coast () {
 
       <div className="flex flex-col w-full h-screen justify-center" >
 
-          <div>
+          <div className="flex justify-center">
             <div className="sm:text-4xl lg:text-8xl font-coast justify-center ">COAST</div>
             <div className="flex justify-center text-sm font-sans w-36 bg-black bg-opacity-20 border-black border-2 rounded-lg px-4">UX/UI Case Study</div>
           </div>
