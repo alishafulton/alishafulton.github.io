@@ -45,7 +45,7 @@ export default function Coast () {
     return (
     <div>
       <div className="flex flex-col max-w-3xl justify-items-center bg-scroll bg-coast-logo bg-contain bg-top  bg-no-repeat" >
-        <div>
+
           <div className="flex w-full py-80">
             <div className="sm:text-4xl lg:text-8xl font-coast justify-center">COAST</div>
           </div>
@@ -53,7 +53,7 @@ export default function Coast () {
           <CoastPrototype className="flex w-full" data-aos="slide-up"/>
         </div>
 
-      </div>
+
 
 
 
