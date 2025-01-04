@@ -42,7 +42,7 @@ export default function Coast () {
       <div className="flex flex-col w-full h-screen" >
           <div className="flex flex-col w-auto py-96 justify-items-center">
             <div className="sm:text-4xl lg:text-8xl font-coast">COAST</div>
-            <div className="sm:text-sm lg:text-lg font-sans bg-black bg-opacity-30 border-black border-1 rounded-lg px-4">UX/UI Case Study</div>
+            <div className="text-sm font-sans bg-black bg-opacity-30 border-black border-2 rounded-lg px-4">UX/UI Case Study</div>
           </div>
 
           <CoastPrototype data-aos="slide-up"/>

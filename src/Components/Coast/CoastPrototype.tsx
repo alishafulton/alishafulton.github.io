@@ -10,7 +10,7 @@ import React from "react"
 export default function CoastPrototype () {
     return (
 
-<div className="flex w-full h-auto justify-items-center justify-center my-4">
+<div className="flex w-1/2 h-auto justify-items-center justify-center my-4">
 
 <div className="flex flex-col mx-12 w-full justify-center justify-items-center justify-self-center ">
 <iframe className="h-80 md:h-500 "
