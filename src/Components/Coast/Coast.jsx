@@ -46,8 +46,7 @@ export default function Coast () {
     <div>
         <div className="flex-col max-w-3xl justify-items-center" >
 
-          <div className="flex w-full " data-aos="fade-up">
-            <img src= { slogo } alt="" className="w-full self-center" />
+          <div className="flex w-full bg-coast-logo bg-scroll">
             <div className="text-lg font-coast self-center">COAST</div>
           </div>
        
