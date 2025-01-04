@@ -44,24 +44,18 @@ export default function Coast () {
 
     return (
     <div>
-        <div className="flex-col max-w-3xl justify-items-center bg-scroll bg-cover bg-coast-logo overflow-auto bg-top bg-no-repeat w-full" >
-
-          <div>
-            <div className="w-full py-96 justify-items-center">
-              <div className="text-9xl font-coast self-center">COAST</div>
-            </div>
+      <div className="flex-col max-w-3xl justify-items-center bg-scroll bg-cover bg-coast-logo overflow-auto bg-top bg-no-repeat w-full" >
+        <div>
+          <div className="w-full py-96 justify-items-center">
+            <div className="text-9xl font-coast self-center">COAST</div>
           </div>
-       
-        <img src={ coast1 } alt="" className="p-0" data-aos="fade-up"/>
-        <CoastPrototype data-aos="slide-up"/>
-        <img src={ coast2 } alt="" className="p-0" data-aos="fade-up"/>
-        <img src={ coast3 } alt="" className="p-0" data-aos="fade-up"/>
-        <img src={ coast4 } alt="" className="p-0" data-aos="fade-up"/>
-        <img src={ coast5 } alt="" className="p-0" data-aos="fade-up"/>
-        <img src={ coast6 } alt="" className="p-0" data-aos="fade-up"/>
-        <img src={ coast7 } alt="" className="p-0" data-aos="fade-up"/>
-
+          
+          <CoastPrototype data-aos="slide-up"/>
         </div>
+
+      </div>
+
+
 
         <div>
           <button onClick={topFunction} id="myBtn" className={showBtn} title="Go to top" >
