@@ -29,7 +29,7 @@ export default function App () {
           </div>
         </div>
 
-        <div className="w-screen justify-center justify-items-center mt-auto ">
+        <div className="w-screen justify-center justify-items-center z-50 mt-auto ">
           <Footer/>
         </div>
 
