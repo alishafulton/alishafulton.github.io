@@ -44,7 +44,7 @@ export default function Coast () {
 
     return (
     <div>
-      <div className="flex-col max-w-3xl justify-items-center bg-scroll bg-coast-logo bg-top bg-cover bg-no-repeat" >
+      <div className="flex-col max-w-3xl justify-items-center bg-scroll bg-coast-logo bg-top  bg-no-repeat" >
         <div>
           <div className="w-full py-80">
             <div className="sm:text-4xl lg:text-8xl font-coast justify-center">COAST</div>
