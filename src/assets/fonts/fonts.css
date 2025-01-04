@@ -5,6 +5,13 @@
     src: url("./AppleGaramond.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: 'Garamond';
+    font-display: swap;
+    font-style: light;
+    src: url("./AppleGaramond_Light.ttf") format("truetype");
+}
+
 
 @font-face {
     font-family: 'SFDisplay';
@@ -26,3 +33,11 @@
     font-style: normal;
     src: url("./InterBlackItalic.ttf") format("truetype");
 }
+
+@font-face {
+    font-family: 'Futura';
+    font-display: swap;
+    font-style: normal;
+    src: url("./Futura_Book.ttf") format("truetype");
+}
+

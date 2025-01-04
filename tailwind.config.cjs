@@ -37,6 +37,7 @@ safelist: [
         sans: ["SFDisplay", "sans"],
         mono: ["Andale", "mono"],
         fancy: ["Inter", "fancy"],
+        coast: ["Futura", "coast"],
         },
     colors: {
       transparent: 'transparent',

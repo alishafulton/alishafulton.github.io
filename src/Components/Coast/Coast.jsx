@@ -45,8 +45,9 @@ export default function Coast () {
     return (
         <div>
         <div className="flex-col max-w-3xl justify-items-center ">
-          <div>
-            <img src= { slogo } alt="" className="w-1/3 h-1/3" data-aos="fade-up"/>
+          <div className="w-full justify-items-center">
+            <img src= { slogo } alt="" className="w-full" data-aos="fade-up"/><br/>
+            <div className="text-lg font-coast ">COAST</div>
           </div>
         <img src={ coast1 } alt="" className="p-0" data-aos="fade-up"/>
         <CoastPrototype data-aos="slide-up"/>
