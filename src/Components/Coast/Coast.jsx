@@ -39,11 +39,13 @@ export default function Coast () {
     return (
       <div>
     <div className="flex w-full justify-center bg-coast-logo bg-scroll bg-contain bg-top overflow-auto bg-no-repeat">
-      <div className="flex flex-col w-full h-screen justify-items-center" >
+     
+     // this is the scrolling container, width defined
+      <div className="flex flex-col w-full h-screen justify-center" >
 
-          <div className="flex flex-col py-96 justify-center">
-            <div className="sm:text-4xl lg:text-8xl font-coast">COAST</div>
-            <div className="text-sm font-sans w-36 bg-black bg-opacity-20 border-black border-2 rounded-lg px-4">UX/UI Case Study</div>
+          <div>
+            <div className="sm:text-4xl lg:text-8xl font-coast justify-center ">COAST</div>
+            <div className="flex justify-center text-sm font-sans w-36 bg-black bg-opacity-20 border-black border-2 rounded-lg px-4">UX/UI Case Study</div>
           </div>
 
           <CoastPrototype data-aos="slide-up"/>
