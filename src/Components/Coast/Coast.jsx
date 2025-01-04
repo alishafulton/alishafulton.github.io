@@ -43,12 +43,14 @@ export default function Coast () {
 
 
     return (
-        <div>
+    <div>
         <div className="flex-col max-w-3xl justify-items-center ">
-          <div className="w-full justify-items-center">
-            <img src= { slogo } alt="" className="w-full" data-aos="fade-up"/><br/>
-            <div className="text-lg font-coast ">COAST</div>
+
+          <div className="flex w-full" data-aos="fade-up">
+            <img src= { slogo } alt="" className="w-full self-center" />
+            <div className="text-lg font-coast self-center">COAST</div>
           </div>
+       
         <img src={ coast1 } alt="" className="p-0" data-aos="fade-up"/>
         <CoastPrototype data-aos="slide-up"/>
         <img src={ coast2 } alt="" className="p-0" data-aos="fade-up"/>
@@ -61,13 +63,10 @@ export default function Coast () {
         </div>
 
         <div>
-        <button
-        onClick={topFunction}
-        id="myBtn"
-        className={showBtn}
-        title="Go to top" >top
-      </button>
-                     </div>
-</div>
+          <button onClick={topFunction} id="myBtn" className={showBtn} title="Go to top" >
+            top
+          </button>
+        </div>
+    </div>
     );
 };
