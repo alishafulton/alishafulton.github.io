@@ -44,12 +44,12 @@ export default function Coast () {
 
     return (
     <div>
-      <div className="flex-col max-w-3xl justify-items-center bg-scroll bg-cover bg-coast-logo overflow-auto bg-top bg-no-repeat w-full" >
+      <div className="flex-col max-w-3xl justify-items-center bg-scroll bg-coast-logo bg-top bg-cover bg-no-repeat" >
         <div>
-          <div className="w-full py-96 justify-items-center">
-            <div className="text-9xl font-coast self-center">COAST</div>
+          <div className="w-full py-80">
+            <div className="sm:text-4xl lg:text-8xl font-coast justify-center">COAST</div>
           </div>
-          
+
           <CoastPrototype data-aos="slide-up"/>
         </div>
 
