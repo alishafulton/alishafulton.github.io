@@ -20,6 +20,9 @@ safelist: [
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      backgroundImage: {
+        'coast-logo': "url('/src/assets/s_logo.png)"
+      },
       height: {
 
         '500': '500px'
