@@ -46,8 +46,8 @@ export default function Coast () {
     <div>
         <div className="flex-col max-w-3xl justify-items-center" >
 
-          <div className="bg-scroll bg-contain bg-coast-logo overflow-auto w-full h-full">
-            <div className="text-lg font-coast self-center">COAST</div>
+          <div className="bg-scroll bg-cover bg-coast-logo overflow-auto bg-center bg-no-repeat w-full h-full">
+            <div className="w-full text-3xl font-coast ">COAST</div>
           </div>
        
         <img src={ coast1 } alt="" className="p-0" data-aos="fade-up"/>
