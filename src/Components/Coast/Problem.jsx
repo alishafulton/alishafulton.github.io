@@ -6,10 +6,9 @@ export default function Problem () {
     return (
 <div>
  <div className="w-full bg-black grid grid-cols-3 gap-2">
-    <div className=" bg-white"></div>
-    <div className=" bg-white"></div>
-    <div className=" bg-white"></div>
-
+    <div className="flex w-full bg-white font-serif justify-center text-sm">Time consuming search process</div>
+    <div className="flex w-full bg-white font-serif justify-center text-sm">Unreliable </div>
+    <div className="flex w-full bg-white font-serif justify-center text-sm">Inconsistency between photos and reality</div>
  </div>
 
 </div>
