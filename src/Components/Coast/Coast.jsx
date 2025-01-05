@@ -35,7 +35,7 @@ export default function Coast () {
                 </div>
               </div>
 
-             <Problem/>
+             <div className="max-w-3xl"><Problem/></div>
 
 
 
