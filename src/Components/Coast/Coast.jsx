@@ -34,11 +34,11 @@ export default function Coast () {
                 </div>
               </div>
 
-              <div className="flex w-full max-w-3xl m-4 p-4 rounded-lg bg-black justify-center">
+              <div className="flex w-full m-4 p-4 rounded-lg bg-black justify-center">
                 <div className="grid w-full grid-cols-3">
-                  <div className="flex w-full bg-white py-4 font-serif">Time consuming search process</div>
-                  <div className="flex w-full bg-white py-4 font-serif">Unreliable </div>
-                  <div className="flex w-full bg-white py-4 font-serif">Inconsistency between photos and reality</div>
+                  <div className="flex w-full bg-white p-4 font-serif justify-center">Time consuming search process</div>
+                  <div className="flex w-full bg-white p-4 font-serif justify-center">Unreliable </div>
+                  <div className="flex w-full bg-white p-4 font-serif justify-center">Inconsistency between photos and reality</div>
               </div>
             </div>
             </div>
