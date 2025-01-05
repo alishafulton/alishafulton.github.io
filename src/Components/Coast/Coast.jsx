@@ -14,7 +14,7 @@ export default function Coast () {
             </div>
             </div>
 
-            <div className="flex flex-col w-64 py-24 justify-center">
+            <div className="flex flex-col justify-center w-64 py-24">
               <div className="flex justify-center font-coast text-lg p-3 w-full">ABOUT</div>
               <div className="flex justify-center font-serif text-sm w-full">
                 Coast is a native app for both iOS and Android users that provides an 
