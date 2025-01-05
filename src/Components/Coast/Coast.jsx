@@ -39,8 +39,13 @@ export default function Coast () {
                   <div className="flex w-full bg-white font-serif justify-center text-sm">Time consuming search process</div>
                   <div className="flex w-full bg-white font-serif justify-center text-sm">Unreliable </div>
                   <div className="flex w-full bg-white font-serif justify-center text-sm">Inconsistency between photos and reality</div>
-              </div>
-            </div>
+               </div>
+             </div>
+
+             <Problem/>
+
+
+
             </div>
 
           <div className="flex w-full justify-center" data-aos="slide-up"><CoastPrototype/></div>
