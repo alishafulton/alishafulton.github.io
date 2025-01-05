@@ -35,7 +35,7 @@ export default function Coast () {
                 </div>
               </div>
 
-             <div className="flex w-full max-w-3xl justify-center"><Problem/></div>
+             <div className="flex w-full justify-center"><Problem/></div>
 
 
 
