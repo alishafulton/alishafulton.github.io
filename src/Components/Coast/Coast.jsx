@@ -16,14 +16,20 @@ export default function Coast () {
             </div>
 
             <div className="flex flex-col justify-center w-full py-24">
-              <div className="flex justify-center font-coast text-lg p-3 w-full">ABOUT</div>
+              <div className="flex justify-center font-coast text-2xl p-3 w-full">ABOUT</div>
               <div className="flex justify-center font-serif text-sm w-full">
                 <div className="flex justify-center w-80">
                 Coast is a native app for both iOS and Android users that provides an 
-                online marketplace for short-term home rentals. Its goal is to equip users with
+                online marketplace for home rentals. Its goal is to equip users with
                 a streamlined, stress-free process with clarity at every step. </div></div>
             </div>
 
+            <div className="flex flex-col justify-center w-full py-24">
+              <div className="flex justify-center font-coast text-2xl p-3 w-full">PROBLEM</div>
+              <div className="flex justify-center font-serif text-sm w-full">
+                <div className="flex justify-center w-80">
+                As the travel industry grows and changes, the rental process has become stressful, confusing and disappointing. </div></div>
+            </div>
 
           <div className="flex w-full justify-center" data-aos="slide-up"><CoastPrototype/></div>
           </div>
