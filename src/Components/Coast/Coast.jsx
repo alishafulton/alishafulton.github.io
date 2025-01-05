@@ -27,7 +27,7 @@ export default function Coast () {
             <div className="flex flex-col justify-center w-full py-24">
               <div className="flex justify-center font-coast text-2xl p-3 w-full">PROBLEM</div>
               <div className="flex justify-center font-serif text-sm w-full">
-                <div className="flex justify-center w-80">
+                <div className="flex justify-center text-lg ">
                 As the travel industry grows and changes, the rental process has become stressful, confusing and disappointing. </div></div>
             </div>
 
