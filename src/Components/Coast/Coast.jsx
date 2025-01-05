@@ -35,7 +35,7 @@ export default function Coast () {
               </div>
 
               <div className="flex w-full justify-center p-4 rounded-lg bg-black">
-                <div className="grid w-full grid-cols-3 space-x-2">
+                <div className="grid w-full grid-cols-3 gap-2">
                   <div className="flex w-full bg-white font-serif justify-center text-sm">Time consuming search process</div>
                   <div className="flex w-full bg-white font-serif justify-center text-sm">Unreliable </div>
                   <div className="flex w-full bg-white font-serif justify-center text-sm">Inconsistency between photos and reality</div>
