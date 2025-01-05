@@ -41,6 +41,7 @@ export default function Coast () {
                   <div className="flex w-full bg-white">text</div>
               </div>
             </div>
+            </div>
 
           <div className="flex w-full justify-center" data-aos="slide-up"><CoastPrototype/></div>
           </div>
