@@ -34,11 +34,11 @@ export default function Coast () {
                 </div>
               </div>
 
-              <div className="flex w-full rounded-lg bg-black">
-                <div className="grid grid-cols-3">
-                  <div className="flex w-full bg-white">text</div>
-                  <div className="flex w-full bg-white">text</div>
-                  <div className="flex w-full bg-white">text</div>
+              <div className="flex w-full max-w-3xl m-4 p-4 rounded-lg bg-black">
+                <div className="grid grid-cols-3 ">
+                  <div className=" bg-white p-4">text</div>
+                  <div className=" bg-white">text</div>
+                  <div className=" bg-white">text</div>
               </div>
             </div>
             </div>
