@@ -23,7 +23,7 @@ export default function Coast () {
                 a streamlined, stress-free process with clarity at every step. </div></div>
             </div>
 
-            <div className="flex flex-col justify-center w-full py-24">
+            <div className="flex flex-col justify-center w-full py-24 mx-4 px-4">
 
               <div className="flex justify-center font-coast text-2xl p-3 w-full">PROBLEM</div>
               
@@ -34,7 +34,7 @@ export default function Coast () {
                 </div>
               </div>
 
-              <div className="flex max-w-3xl p-4 rounded-lg bg-black justify-center">
+              <div className="flex w-full justify-center max-w-3xl p-4 rounded-lg bg-black">
                 <div className="grid w-full grid-cols-3">
                   <div className="flex w-full bg-white p-4 font-serif justify-center text-sm">Time consuming search process</div>
                   <div className="flex w-full bg-white p-4 font-serif justify-center text-sm">Unreliable </div>
