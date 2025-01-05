@@ -19,8 +19,7 @@ export default function Coast () {
               <div className="flex justify-center font-coast text-2xl p-3 w-full">ABOUT</div>
               <div className="flex justify-center font-serif text-sm w-full">
                 <div className="flex justify-center text-lg w-96">
-                Coast is a native app for both iOS and Android users that provides an 
-                online marketplace for home rentals. Its goal is to equip users with
+                Coast is a web app that provides an online marketplace for home rentals. Its goal is to equip users with
                 a streamlined, stress-free process with clarity at every step. </div></div>
             </div>
 
@@ -37,10 +36,9 @@ export default function Coast () {
 
               <div className="flex w-full rounded-lg bg-black">
                 <div className="grid grid-cols-3">
-                  <div className="flex w-full bg-white"/>
-                  <div className="flex w-full bg-white"/>
-                  <div className="flex w-full bg-white"/>
-                </div>
+                  <div className="flex w-full bg-white">text</div>
+                  <div className="flex w-full bg-white">text</div>
+                  <div className="flex w-full bg-white">text</div>
               </div>
             </div>
 
