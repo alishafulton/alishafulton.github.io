@@ -23,6 +23,9 @@ safelist: [
       height: {
         '500': '500px'
       },
+      width: {
+        '500': '500px'
+      },
       letterSpacing: {
         tightest: '-0.1em',
       },

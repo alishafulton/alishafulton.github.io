@@ -10,7 +10,7 @@ export default function Coast () {
 
             <div className="flex flex-col justify-center py-44 lg:py-84 space-y-4">
 
-               <div className="text-6xl lg:text-9xl font-coast flex justify-center">COAST</div>
+               <div className="text-6xl lg:text-9xl font-coast flex justify-center ">COAST</div>
               
                <div className="flex justify-center">
                  <div className="flex justify-center text-sm rounded-xl font-sans w-32 bg-black text-white px-2 py-1">UX/UI Case Study</div>

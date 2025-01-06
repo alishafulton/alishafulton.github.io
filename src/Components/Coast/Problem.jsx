@@ -8,25 +8,25 @@ export default function Problem () {
     return (
 <div>
  
- <div className="w-full justify-center bg-black grid grid-cols-3 gap-2 p-4 my-4">
+ <div className="w-full justify-centergrid grid-cols-3 gap-4 p-4 my-4">
 
-    <div className="flex w-full bg-white font-serif justify-center p-2">Time consuming search process</div>
+    <div className="flex w-full font-serif justify-center p-2">Time consuming search process</div>
 
-    <div className="flex flex-col w-full bg-white justify-center justify-items-center p-2">
+    <div className="flex flex-col w-full  justify-center justify-items-center p-2">
         <img src={ emotion1 } className="max-w-60 justify-center" />
 
         <div className="flex flex-col w-full">
-            <div className="flex w-full text-center justify-center">Unreliable reviews</div>
-            <div className="text-sm">skifhuisjhre owiejr oij ioj oi kjxkck sopspepele. i if i oeoefm  </div>
+            <div className="flex w-full text-center justify-center py-2 font-coast">Unreliable reviews</div>
+            <div className="text-sm font-serif ">skifhuisjhre owiejr oij ioj oi kjxkck sopspepele. i if i oeoefm  </div>
             </div>
     </div>
 
-    <div className="flex flex-col w-full bg-white justify-center justify-items-center p-2">
+    <div className="flex flex-col w-full  justify-center justify-items-center p-2">
         <img src={ emotion2 } className="max-w-60 justify-center" />
 
         <div className="flex flex-col w-full">
-            <div className="flex w-full text-center justify-center ">Inconsistency between photos and reality</div>
-            <div className="text-sm">skifhuisjhre owiejr oij ioj oi kjxkck sopspepele. i if i oeoefm  </div>
+            <div className="flex w-full text-center justify-center py-2 font-coast">Inconsistency between photos and reality</div>
+            <div className="text-sm font-serif">skifhuisjhre owiejr oij ioj oi kjxkck sopspepele. i if i oeoefm  </div>
             </div>
     </div>
     
