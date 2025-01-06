@@ -12,18 +12,16 @@ export default function Problem () {
  <div className="w-full justify-center grid grid-cols-3 gap-4 p-4 my-4">
 
  <div className="flex flex-col w-full  justify-center justify-items-center p-2">
-        <img src={ emotion2 } className="max-w-60 justify-center" />
 
-        <div className="flex flex-col w-full bg-white">
+        <div className="flex flex-col w-full bg-white py-2">
             <div className="flex w-full text-center justify-center py-2 font-coast">Unreliable reviews</div>
             <div className="text-sm font-serif ">skifhuisjhre owiejr oij ioj oi kjxkck sopspepele. i if i oeoefm  </div>
             </div>
     </div>
-    
- <div className="flex flex-col w-full  justify-center justify-items-center p-2">
-        <img src={ emotion3 } className="max-w-60 justify-center" />
 
-        <div className="flex flex-col w-full bg-white">
+ <div className="flex flex-col w-full  justify-center justify-items-center p-2">
+
+        <div className="flex flex-col w-full bg-white py-2">
             <div className="flex w-full text-center justify-center py-2 font-coast">Time-consuming Search Process</div>
             <div className="text-sm font-serif ">skifhuisjhre owiejr oij ioj oi kjxkck sopspepele. i if i oeoefm  </div>
             </div>
@@ -32,9 +30,8 @@ export default function Problem () {
    
 
     <div className="flex flex-col w-full  justify-center justify-items-center p-2">
-        <img src={ emotion1 } className="max-w-60 justify-center" />
 
-        <div className="flex flex-col w-full">
+        <div className="flex flex-col w-full bg-white py-2">
             <div className="flex w-full text-center justify-center py-2 font-coast">Inconsistency between photos and reality</div>
             <div className="text-sm font-serif">skifhuisjhre owiejr oij ioj oi kjxkck sopspepele. i if i oeoefm  </div>
             </div>
