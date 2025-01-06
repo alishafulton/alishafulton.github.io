@@ -31,7 +31,7 @@ export default function Coast () {
               <div className="flex justify-center font-coast text-2xl p-3 w-full">PROBLEM</div>
               
               <div className="flex justify-center font-serif text-sm w-full">
-                <div className="flex justify-center text-lg ">
+                <div className="flex justify-center text-center text-lg ">
                   As the travel industry grows and changes, the rental process 
                   has become stressful, confusing and disappointing. 
                 </div>
