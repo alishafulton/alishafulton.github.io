@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import { Outlet } from "react-router-dom";
 import './index.css'
-import Footer from "./Components/Footer/Footer";
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';

@@ -42,29 +42,16 @@ export default function Channel () {
 
     return (
     
-    <div>
+      <div className="flex w-full pt-2 justify-center bg-coast-logo bg-scroll bg-contain bg-top overflow-auto bg-no-repeat">
+          <div className="flex flex-col w-full h-screen" >
    
-        <div className="flex-col max-w-3xl justify-center justify-items-center ">
+
         <img src={ channel1 } alt="" className="p-0" />
-        <img src={ channel2 } alt="" className="p-0" />
-        <img src={ channel3 } alt="" className="p-0" />
-        <img src={ channel4 } alt="" className="p-0" />
-        <img src={ channel5 } alt="" className="p-0" />
-        <img src={ channel6 } alt="" className="p-0" />
-        <img src={ channel7 } alt="" className="p-0" />
-        <img src={ channel8 } alt="" className="p-0" />
-
-        </div>
 
 
-        <div>
-        <button
-        onClick={topFunction}
-        id="myBtn"
-        className={showBtn}
-        title="Go to top" >top
-      </button>
-                     </div>
+
+
+</div>
  </div>
     );
 }
