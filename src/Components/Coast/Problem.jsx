@@ -11,8 +11,11 @@ export default function Problem () {
 
     <div className="flex w-full bg-white font-serif justify-center text-sm">Time consuming search process</div>
 
-    <div className="flex flex-col w-full bg-white"><img src={ emotion1 } className="w-16 h-16"/><div className="font-serif justify-center text-sm">Unreliable reviews</div>
+    <div className="flex flex-col w-full bg-white">
+        <img src={ emotion1 } className="w-36 justify-center" />
+        <div className="font-serif justify-center text-sm">Unreliable reviews</div>
     </div>
+
     <div className="flex w-full bg-white font-serif justify-center text-sm">Inconsistency between photos and reality</div>
 
  </div>
