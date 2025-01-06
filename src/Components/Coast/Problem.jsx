@@ -22,7 +22,7 @@ export default function Problem () {
     </div>
 
     <div className="flex flex-col w-full bg-white justify-center justify-items-center p-2">
-        <img src={ emotion1 } className="max-w-60 justify-center" />
+        <img src={ emotion2 } className="max-w-60 justify-center" />
 
         <div className="flex flex-col w-full">
             <div className="flex w-full text-center justify-center ">Inconsistency between photos and reality</div>
