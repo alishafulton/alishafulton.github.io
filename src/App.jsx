@@ -15,14 +15,15 @@ export default function App () {
     });
     }, []);
   return (
-    <div className="flex flex-col w-screen min-h-screen justify-center justify-items-center">
+    <div className="flex flex-col w-screen h-screen justify-center justify-items-center">
+
       <div className="sticky top-0 w-full z-50 flex justify-center items-center">
         <div className="w-full h-min">
           <Navbar/>
         </div>
         </div>
        
-        <div className="flex-1 content-start">
+        <div className="flex h-500 content-start">
           <div className="flex w-full h-full justify-center content-start">
             <Outlet/>
           </div>
