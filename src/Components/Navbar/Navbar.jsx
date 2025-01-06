@@ -9,13 +9,14 @@ export default function Navbar () {
   const activeLink = "text-green ";
 
 return (
-      
-      <div className="flex w-full justify-center bg-white py-5 backdrop-blur-lg ">
+      <div className="bg-white w-full h-auto">
+      <div className="flex w-full justify-center py-5 ">
         <div className="flex flex-row font-mono text-sm tracking-tighter text-black">
           <div className="p-3"><NavLink to="/" className={({ isActive }) => (isActive ? activeLink : "")}>PORTFOLIO</NavLink></div>
           <div className="p-3 "><NavLink to="/about" className={({ isActive }) => (isActive ? activeLink : "")}>ABOUT</NavLink></div>
           <div className="p-3 "><NavLink to="/contact" className={({ isActive }) => (isActive ? activeLink : "")}>CONTACT</NavLink></div>
  
+        </div>
         </div>
     </div>
         
