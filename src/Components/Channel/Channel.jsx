@@ -46,7 +46,7 @@ export default function Channel () {
           <div className="flex flex-col w-full h-screen" >
    
 
-        <img src={ channel1 } alt="" className="p-0" />
+        <img src={ channel1 } alt="" className="p-0 flex max-w-3xl" />
 
 
 
