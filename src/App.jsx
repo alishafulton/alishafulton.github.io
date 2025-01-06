@@ -17,7 +17,7 @@ export default function App () {
   return (
     <div className="flex flex-col w-screen h-screen justify-center content-start">
 
-      <div className="sticky top-0 w-full z-50 flex justify-center items-center">
+      <div className="flex sticky top-0 w-full justify-center items-center">
         <div className="w-full h-min">
           <Navbar/>
         </div>
