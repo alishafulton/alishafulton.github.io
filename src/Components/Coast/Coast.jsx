@@ -28,7 +28,8 @@ export default function Coast () {
 
 
 
-            <div className="flex flex-col justify-center w-full max-w-3xl px-4" >
+            <div className="flex flex-col justify-center w-full px-4" >
+              <div className="flex w-full max-w-3xl">
               <div className="flex justify-center font-coast text-2xl p-3 w-full">PROBLEM</div>
               
               <div className="flex justify-center font-serif text-sm w-full">
@@ -39,8 +40,7 @@ export default function Coast () {
               </div>
 
              <div className="flex w-full justify-center "><Problem/></div>
-
-
+             </div>
 
             </div>
 

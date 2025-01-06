@@ -1,7 +1,4 @@
 import React from 'react';
-import emotion1 from './../../assets/coast_emotion1.png';
-import emotion2 from './../../assets/coast-emotion2.png';
-import emotion3 from './../../assets/coast_emotion3.png';
 
 
 export default function Problem () {
