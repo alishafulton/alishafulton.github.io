@@ -1,5 +1,6 @@
 import React from 'react';
 import emotion1 from './../../assets/coast_emotion1.png'
+import emotion2 from './../../assets/coast_emotion2.png'
 
 
 export default function Problem () {
@@ -9,9 +10,9 @@ export default function Problem () {
  
  <div className="w-full justify-center bg-black grid grid-cols-3 gap-2 p-4 my-4">
 
-    <div className="flex w-full bg-white font-serif justify-center ">Time consuming search process</div>
+    <div className="flex w-full bg-white font-serif justify-center p-2">Time consuming search process</div>
 
-    <div className="flex flex-col w-full bg-white justify-center justify-items-center">
+    <div className="flex flex-col w-full bg-white justify-center justify-items-center p-2">
         <img src={ emotion1 } className="max-w-60 justify-center" />
 
         <div className="flex flex-col w-full">
@@ -20,7 +21,16 @@ export default function Problem () {
             </div>
     </div>
 
-    <div className="flex w-full bg-white font-serif justify-center ">Inconsistency between photos and reality</div>
+    <div className="flex flex-col w-full bg-white justify-center justify-items-center p-2">
+        <img src={ emotion1 } className="max-w-60 justify-center" />
+
+        <div className="flex flex-col w-full">
+            <div className="flex w-full text-center justify-center ">Inconsistency between photos and reality</div>
+            <div className="text-sm">skifhuisjhre owiejr oij ioj oi kjxkck sopspepele. i if i oeoefm  </div>
+            </div>
+    </div>
+    
+
 
  </div>
 
