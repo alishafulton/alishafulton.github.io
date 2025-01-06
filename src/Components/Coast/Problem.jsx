@@ -9,14 +9,14 @@ export default function Problem () {
  
  <div className="w-full justify-center bg-black grid grid-cols-3 gap-2 p-4 my-4">
 
-    <div className="flex w-full bg-white font-serif justify-center text-sm">Time consuming search process</div>
+    <div className="flex w-full bg-white font-serif justify-center ">Time consuming search process</div>
 
     <div className="flex flex-col w-full bg-white justify-center justify-items-center">
-        <img src={ emotion1 } className="w-48 justify-center" />
-        <div className="font-serif justify-center text-sm">Unreliable reviews</div>
+        <img src={ emotion1 } className="max-w-60 justify-center" />
+        <div className="flex w-full text-center font-serif ">Unreliable reviews</div>
     </div>
 
-    <div className="flex w-full bg-white font-serif justify-center text-sm">Inconsistency between photos and reality</div>
+    <div className="flex w-full bg-white font-serif justify-center ">Inconsistency between photos and reality</div>
 
  </div>
 
