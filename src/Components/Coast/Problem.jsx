@@ -13,7 +13,11 @@ export default function Problem () {
 
     <div className="flex flex-col w-full bg-white justify-center justify-items-center">
         <img src={ emotion1 } className="max-w-60 justify-center" />
-        <div className="flex w-full text-center font-serif ">Unreliable reviews</div>
+
+        <div className="flex flex-col w-full">
+            <div className="flex w-full text-center justify-center">Unreliable reviews</div>
+            <div className="text-sm">skifhuisjhre owiejr oij ioj oi kjxkck sopspepele. i if i oeoefm  </div>
+            </div>
     </div>
 
     <div className="flex w-full bg-white font-serif justify-center ">Inconsistency between photos and reality</div>
