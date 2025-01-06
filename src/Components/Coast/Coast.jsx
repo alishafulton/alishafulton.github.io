@@ -26,8 +26,9 @@ export default function Coast () {
                 a streamlined, stress-free process with clarity at every step. </div></div>
             </div>
 
-            <div className="flex flex-col justify-center w-full py-24 px-4" >
 
+
+            <div className="flex flex-col justify-center w-full max-w-3xl px-4" >
               <div className="flex justify-center font-coast text-2xl p-3 w-full">PROBLEM</div>
               
               <div className="flex justify-center font-serif text-sm w-full">

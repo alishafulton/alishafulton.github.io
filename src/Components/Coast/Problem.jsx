@@ -9,7 +9,7 @@ export default function Problem () {
     return (
 <div>
  
- <div className="w-full justify-center grid grid-cols-3 gap-4 p-4 my-4">
+ <div className="w-full justify-center grid grid-cols-3 gap-4 p-4 my-4 content-start">
 
  <div className="flex flex-col w-full  justify-center justify-items-center p-2">
 
