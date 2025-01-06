@@ -7,8 +7,8 @@ import Compliments from "./Compliments";
 export default function AboutPage() {
     
       return (
-        <div>
-        <div className="flex flex-col justify-center justify-items-center content-start w-full h-full">
+        <div className="content-start justify-center w-full h-full">
+        <div className="flex flex-col justify-center">
             <Blurb />
             <Compliments/>
         </div></div>
