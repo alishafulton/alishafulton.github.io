@@ -8,7 +8,7 @@ export default function Problem () {
     return (
 <div>
  
- <div className="w-full justify-centergrid grid-cols-3 gap-4 p-4 my-4">
+ <div className="w-full justify-center grid grid-cols-3 gap-4 p-4 my-4">
 
     <div className="flex w-full font-serif justify-center p-2">Time consuming search process</div>
 
