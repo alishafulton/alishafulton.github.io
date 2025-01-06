@@ -9,7 +9,7 @@ export default function Navbar () {
   const activeLink = "text-green ";
 
 return (
-      <div className="bg-white w-full h-auto">
+
       <div className="flex w-full justify-center py-5 ">
         <div className="flex flex-row font-mono text-sm tracking-tighter text-black">
           <div className="p-3"><NavLink to="/" className={({ isActive }) => (isActive ? activeLink : "")}>PORTFOLIO</NavLink></div>
@@ -17,7 +17,7 @@ return (
           <div className="p-3 "><NavLink to="/contact" className={({ isActive }) => (isActive ? activeLink : "")}>CONTACT</NavLink></div>
  
         </div>
-        </div>
+
     </div>
         
       
