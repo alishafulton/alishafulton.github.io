@@ -17,7 +17,7 @@ export default function App () {
   return (
     <div className="flex flex-col w-screen h-screen justify-center content-start overscroll-none ">
 
-      <div className="flex sticky top-0 w-full justify-center items-center z-30">
+      <div className="flex sticky top-0 w-full justify-center items-center z-50">
 
           <Navbar/>
 
