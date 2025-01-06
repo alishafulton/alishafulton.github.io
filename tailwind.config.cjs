@@ -51,6 +51,7 @@ safelist: [
         blue: '#335FCF',
         purple: '#BEA7E5',
         white: '#FAFAFA',
+        navy: '#182B3B',
       },
       backgroundImage: {
         'coast-logo': "url('/src/assets/s_logo.png')",
