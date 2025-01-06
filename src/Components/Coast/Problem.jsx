@@ -23,7 +23,7 @@ export default function Problem () {
 
         <div className="flex flex-col w-full py-2">
             <div className="flex w-auto mx-8 bg-black text-white rounded-lg text-center justify-center py-2 px-3 font-coast">Time-Consuming Search Process</div>
-            <div className="text-sm font-serif bg-white p-5 h-auto rounded -mt-12">Lorem ipsum dolor sit amet consectetur. Etiam sed congue viverra consectetur ipsum integer egestas laoreet. Nisi nam convallis massa facilisis molestie in. Etiam in ac non est. </div>
+            <div className="text-sm font-serif bg-white p-5 h-auto rounded -mt-4">Lorem ipsum dolor sit amet consectetur. Etiam sed congue viverra consectetur ipsum integer egestas laoreet. Nisi nam convallis massa facilisis molestie in. Etiam in ac non est. </div>
             </div>
     </div>
 
