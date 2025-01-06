@@ -23,7 +23,7 @@ export default function App () {
         </div>
        
         <div className="flex-1 content-start">
-          <div className="flex-1 justify-center content-start">
+          <div className="flex w-full h-full justify-center content-start">
             <Outlet/>
           </div>
         </div>
