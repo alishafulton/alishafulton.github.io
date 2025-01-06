@@ -21,9 +21,9 @@ export default function Problem () {
 
  <div className="flex flex-col w-full  justify-center justify-items-center p-2">
 
-        <div className="flex flex-col w-full bg-white py-2">
-            <div className="flex w-full text-center justify-center py-2 font-coast">Time-consuming Search Process</div>
-            <div className="text-sm font-serif ">skifhuisjhre owiejr oij ioj oi kjxkck sopspepele. i if i oeoefm  </div>
+        <div className="flex flex-col w-full py-2">
+            <div className="flex w-full bg-black text-white rounded-lg text-center justify-center py-2 px-4 font-coast">Time-consuming Search Process</div>
+            <div className="text-sm font-serif bg-white ">skifhuisjhre owiejr oij ioj oi kjxkck sopspepele. i if i oeoefm  </div>
             </div>
     </div>
 
