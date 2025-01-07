@@ -42,11 +42,17 @@ export default function Channel () {
 
     return (
     
-      <div className="flex w-full h-[calc(100%-100px)] pt-2 justify-center bg-navy bg-scroll bg-contain bg-top overflow-auto bg-no-repeat">
+      <div className="flex w-full h-[calc(100vh-100px)] pt-2 justify-center bg-navy bg-scroll bg-contain bg-top overflow-auto bg-no-repeat">
           <div className="flex flex-col w-full h-full" >
    
 
-        <img src={ channel1 } alt="" className="p-0 flex w-500" />
+        <img src={ channel1 } alt="" className="py-4 flex w-500" />
+        <img src={ channel1 } alt="" className="py-4 flex w-500" />
+        <img src={ channel1 } alt="" className="py-4 flex w-500" />
+        <img src={ channel1 } alt="" className="py-4 flex w-500" />
+        <img src={ channel1 } alt="" className="py-4 flex w-500" />
+        <img src={ channel1 } alt="" className="py-4 flex w-500" />
+        
 
 
 
