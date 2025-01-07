@@ -5,6 +5,7 @@ import Problem from './Problem';
 export default function Coast () {
 
     return (
+      <div>
         <div className="flex w-full h-full pt-2 justify-center bg-coast-logo bg-scroll bg-contain bg-top overflow-auto bg-no-repeat">
           <div className="flex flex-col" >
 
@@ -47,7 +48,7 @@ export default function Coast () {
           <div className="flex w-full justify-center"><CoastPrototype/></div>
           </div>
 
-
+</div>
     </div>
     );
 };
