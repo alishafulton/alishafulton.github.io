@@ -48,6 +48,10 @@ export default function Channel () {
 
         <img src={ channel1 } alt="" className="py-4 flex w-500" />
         <img src={ channel1 } alt="" className="py-4 flex w-500" />
+        <img src={ channel1 } alt="" className="py-4 flex w-500" />
+        <img src={ channel1 } alt="" className="py-4 flex w-500" />
+        <img src={ channel1 } alt="" className="py-4 flex w-500" />
+        <img src={ channel1 } alt="" className="py-4 flex w-500" />
 
 
 
