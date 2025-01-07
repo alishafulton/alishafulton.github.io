@@ -6,7 +6,7 @@ export default function Coast () {
 
     return (
       <div>
-        <div className="flex w-full h-full pt-2 justify-center bg-coast-logo bg-scroll bg-contain bg-top overflow-auto bg-no-repeat">
+        <div className="flex w-full pt-2 justify-center bg-coast-logo bg-scroll bg-contain bg-top overflow-auto bg-no-repeat">
           <div className="flex flex-col" >
 
             <div className="flex flex-col justify-center py-44 lg:py-84 space-y-4">
