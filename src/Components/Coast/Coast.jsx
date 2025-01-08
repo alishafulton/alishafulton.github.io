@@ -9,7 +9,7 @@ export default function Coast () {
         <div className="flex w-full pt-2 justify-center">
           <div className="flex flex-col" >
 
-            <div className="flex flex-col justify-center py-44 lg:py-84 space-y-4 bg-coast-logo bg-no-repeat bg-center bg-contain">
+            <div className="flex flex-col justify-center py-44 lg:py-84 space-y-4 bg-coast-logo bg-no-repeat bg-center bg-contain mt-4 ">
 
 
 
