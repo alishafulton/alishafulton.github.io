@@ -12,7 +12,7 @@ export default function Problem () {
 
         <div className="flex flex-col w-full py-2">
             <div className="flex w-auto mx-8 bg-black text-white rounded-lg sm:text-sm lg:text-lg text-center justify-center py-2 px-3 font-coast z-20">Unreliable Reviews</div>
-            <div className="text-sm font-serif bg-white p-5 h-auto rounded -mt-4 z-10">skifhuisjhre owiejr oij ioj oi kjxkck sopspepele. i if i oeoefm  </div>
+            <div className="text-sm font-serif bg-white p-5 h-auto rounded -mt-4 z-10">Lorem ipsum dolor sit amet consectetur. Etiam sed congue viverra consectetur ipsum integer egestas laoreet. Nisi nam convallis massa facilisis molestie in. Etiam in ac non est.</div>
             </div>
     </div>
 
@@ -30,7 +30,7 @@ export default function Problem () {
 
         <div className="flex flex-col w-full py-2">
             <div className="flex w-auto mx-8 bg-black text-white rounded-lg sm:text-sm lg:text-lg text-center justify-center py-2 px-3 font-coast z-20">Inconsistency Between Photos and Reality</div>
-            <div className="text-sm font-serif bg-white p-5 h-auto rounded -mt-4 z-10">skifhuisjhre owiejr oij ioj oi kjxkck sopspepele. i if i oeoefm  </div>
+            <div className="text-sm font-serif bg-white p-5 h-auto rounded -mt-4 z-10">Lorem ipsum dolor sit amet consectetur. Etiam sed congue viverra consectetur ipsum integer egestas laoreet. Nisi nam convallis massa facilisis molestie in. Etiam in ac non est.</div>
             </div>
     </div>
     
