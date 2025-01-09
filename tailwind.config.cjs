@@ -52,7 +52,8 @@ safelist: [
         blue: '#335FCF',
         purple: '#BEA7E5',
         white: '#FAFAFA',
-        navy: '#182B3B',
+        navy: '#233F56',
+        lightblue: '#3D6A8F',
         eggshell: '#FCFAF1',
       },
       backgroundImage: {

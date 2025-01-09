@@ -42,7 +42,7 @@ export default function Channel () {
 
     return (
     
-      <div className="flex w-full bg-navy overflow-hidden">
+      <div className="flex w-full bg-gradient-to-b from-lightblue to-navy overflow-hidden">
           <div className="flex flex-col w-full overflow-auto" >
    
 
