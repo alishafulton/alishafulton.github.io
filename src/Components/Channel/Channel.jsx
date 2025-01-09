@@ -49,7 +49,7 @@ export default function Channel () {
         <img src={ channel1 } alt="" className="py-4 flex w-500 justify-center" />
         <img src={ channel1 } alt="" className="py-4 flex w-500" />
 
-        <div className="flex flex-col justify-center w-2/3 text-white font-channel space-y-4 py-4 ">
+        <div className="flex flex-col justify-self-center w-2/3 text-white font-channel space-y-4 py-4 ">
 
           <div className="flex flex-col justify-center">
             <div className="flex w-full text-right text-3xl ">problem</div>
