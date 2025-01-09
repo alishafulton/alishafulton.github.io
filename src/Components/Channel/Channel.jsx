@@ -73,7 +73,7 @@ export default function Channel () {
               <img src ={ channel2 } className="flex w-72 " />
             </div>
 
-            <div className="bg-white rounded-lg -m-5 place-content-center">
+            <div className="bg-white bg-opacity-25 rounded-lg -mx-5 place-content-center">
               <img src ={ channel2 } className="flex w-500" />
             </div>
 
