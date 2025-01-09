@@ -49,15 +49,16 @@ export default function Channel () {
         <img src={ channel1 } alt="" className="py-4 flex w-500" />
         <img src={ channel1 } alt="" className="py-4 flex w-500" />
 
-        <div className="w-2/3 font-white font-channel ">
+        <div className="w-2/3 justify-center text-white font-channel space-y-4 py-4">
+
           <div className="flex flex-col justify-start ">
             <div className="flex w-full text-right text-3xl ">problem</div>
-            <div className="text-lg ">To provide a space for healthcare workers to review their environments, and for those reviews to assist healthcare workers who are looking to switch facilities.</div>
+            <div className="text-lg w-1/2">To provide a space for healthcare workers to review their environments, and for those reviews to assist healthcare workers who are looking to switch facilities.</div>
           </div>
 
           <div className="flex flex-col justify-end">
             <div className="flex w-full text-right text-3xl ">solution</div>
-            <div className="text-lg text-right ">To provide a space for healthcare workers to review their environments, and for those reviews to assist healthcare workers who are looking to switch facilities.</div>
+            <div className="text-lg text-right w-1/2">To provide a space for healthcare workers to review their environments, and for those reviews to assist healthcare workers who are looking to switch facilities.</div>
         </div>
         </div>
 
