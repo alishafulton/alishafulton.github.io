@@ -43,7 +43,7 @@ export default function Channel () {
     return (
     
       <div className="flex w-full justify-center bg-navy overflow-hidden">
-          <div className="flex flex-col w-full overflow-auto justify-center" >
+          <div className="flex flex-col w-2/3 overflow-auto justify-center" >
    
 
         <img src={ channel1 } alt="" className="py-4 flex w-500 justify-center" />
