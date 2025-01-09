@@ -42,8 +42,8 @@ export default function Channel () {
 
     return (
     
-      <div className="flex w-full justify-center">
-          <div className="flex flex-col w-full bg-navy bg-scroll" >
+      <div className="flex w-full justify-center bg-navy bg-local">
+          <div className="flex flex-col w-full " >
    
 
         <img src={ channel1 } alt="" className="py-4 flex w-500" />
