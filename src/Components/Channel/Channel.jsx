@@ -65,30 +65,30 @@ export default function Channel () {
 
         
         <div className="flex w-2/3 place-self-center text-white font-channel">
-          <div className="flex w-full bg-white bg-opacity-20 rounded-lg"></div>
+          <div className="flex w-full bg-white bg-opacity-20 rounded-lg">
 
-          <div className="grid grid-cols-3 space-x-2">
+            <div className="grid grid-cols-3 space-x-2">
 
-            <div className="flex flex-col">
+             <div className="flex flex-col">
               <div className="flex bg-navy opacity-90 rounded-lg p-6">
-              Healthcare workers can have limited free time, so keeping the sign up process simple is important. Users can type their phone number to gain access with a verification code, or sign in with familiar options. 
+                 Healthcare workers can have limited free time, so keeping the sign up process simple is important. Users can type their phone number to gain access with a verification code, or sign in with familiar options. 
               </div>
-              <img src ={ channel2 } className="flex w-64 " />
-            </div>
+                 <img src ={ channel2 } className="flex w-64 " />
+             </div>
 
-            <div className="place-content-center">
-              <img src ={ channel3 } className="flex w-500 overflow-visible " />
-            </div>
+             <div className="place-content-center">
+                <img src ={ channel3 } className="flex w-500 overflow-visible " />
+             </div>
 
-            <div className="flex flex-col">
-              <img src ={ channel4 } className="flex w-64 " />
-              <div className="flex bg-navy opacity-90 rounded-lg p-6">
-              Healthcare workers can have limited free time, so keeping the sign up process simple is important. Users can type their phone number to gain access with a verification code, or sign in with familiar options. 
-              </div>
+             <div className="flex flex-col">
+               <img src ={ channel4 } className="flex w-64 " />
+               <div className="flex bg-navy opacity-90 rounded-lg p-6">
+               Healthcare workers can have limited free time, so keeping the sign up process simple is important. Users can type their phone number to gain access with a verification code, or sign in with familiar options. 
+             </div>
 
             </div>
           </div>
-
+          </div>
         </div>
 
 
