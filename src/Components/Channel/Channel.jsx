@@ -42,14 +42,14 @@ export default function Channel () {
 
     return (
     
-      <div className="flex w-full bg-gradient-to-b from-lightblue to-navy overflow-hidden">
+      <div className="flex w-full bg-gradient-to-b from-lightblue to-darkblue overflow-hidden">
           <div className="flex flex-col w-full overflow-auto" >
    
 
         <img src={ channel1 } alt="" className="py-4 flex w-500 " />
         <img src={ channel1 } alt="" className="py-4 flex w-500" />
 
-        <div className="flex flex-col place-self-center w-2/3 text-white font-channel space-y-4 py-4 ">
+        <div className="flex flex-col place-self-center w-2/3 text-white font-channel space-y-8 py-4 ">
 
           <div className="flex flex-col justify-center py-4">
             <div className="flex w-full text-right text-3xl py-2">problem</div>
@@ -65,7 +65,22 @@ export default function Channel () {
         </div>
 
         <img src={ channel1 } alt="" className="py-4 flex w-500" />
-        <img src={ channel1 } alt="" className="py-4 flex w-500" />
+        
+        <div className="flex w-2/3 place-self-center text-white font-channel">
+          <div className="grid grid-cols-3 space-x-2">
+            <div className="flex flex-col">
+              <div className="flex bg-navy opacity-90 rounded-lg">
+              Healthcare workers can have limited free time, so keeping the sign up process simple is important. Users can type their phone number to gain access with a verification code, or sign in with familiar options. 
+              </div>
+              <div></div>
+            </div>
+            <div></div>
+            <div></div>
+          </div>
+
+        </div>
+
+
         <img src={ channel1 } alt="" className="py-4 flex w-500" />
 
 
