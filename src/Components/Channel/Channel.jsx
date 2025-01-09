@@ -73,7 +73,7 @@ export default function Channel () {
               <img src ={ channel2 } className="flex w-64 " />
             </div>
 
-            <div className="bg-white bg-opacity-25 rounded-lg -px-5 place-content-center overflow-visible ">
+            <div className="place-content-center">
               <img src ={ channel3 } className="flex w-500 overflow-visible " />
             </div>
 
