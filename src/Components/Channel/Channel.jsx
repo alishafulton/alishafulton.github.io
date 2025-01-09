@@ -64,10 +64,10 @@ export default function Channel () {
         <div className="flex w-2/3 place-self-center text-white font-channel">
           <div className="grid grid-cols-3 space-x-2">
             <div className="flex flex-col">
-              <div className="flex bg-navy opacity-90 rounded-lg p-2">
+              <div className="flex bg-navy opacity-90 rounded-lg p-8">
               Healthcare workers can have limited free time, so keeping the sign up process simple is important. Users can type their phone number to gain access with a verification code, or sign in with familiar options. 
               </div>
-              <img src ={ channel2 } className="flex w-24" />
+              <img src ={ channel2 } className="flex w-60" />
               <div></div>
             </div>
             <div></div>
