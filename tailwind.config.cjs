@@ -40,6 +40,7 @@ safelist: [
         mono: ["Andale", "mono"],
         fancy: ["Inter", "fancy"],
         coast: ["Futura", "coast"],
+        channel: ["Outfit", "channel"],
         },
       colors: {
         transparent: 'transparent',

@@ -41,3 +41,10 @@
     src: url("./Futura_Book.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: 'Outfit';
+    font-display: swap;
+    font-style: normal;
+    src: url("./Outfit.ttf") format("truetype");
+}
+
