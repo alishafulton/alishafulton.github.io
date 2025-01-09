@@ -16,7 +16,6 @@ export default function Project1() {
         
             <div className="h-min w-full grid grid-cols-2 items-center"> 
               <div className="leading-10 text-black text-lg justify-self-start">Coast</div>
-              <div className="justify-self-end"><UxTag/></div>
           </div>
 </div>
 

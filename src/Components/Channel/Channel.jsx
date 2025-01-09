@@ -51,13 +51,13 @@ export default function Channel () {
 
         <div className="flex flex-col place-self-center w-2/3 text-white font-channel space-y-4 py-4 ">
 
-          <div className="flex flex-col justify-center">
-            <div className="flex w-full text-right text-3xl ">problem</div>
-            <div className="flex text-lg w-2/3">To provide a space for healthcare workers to review their environments, and for those reviews to assist healthcare workers who are looking to switch facilities.</div>
+          <div className="flex flex-col justify-center py-4">
+            <div className="flex w-full text-right text-3xl py-2">problem</div>
+            <div className="flex text-lg w-2/3">The healthcare industry is demanding and can lead to burn out, exhaustion and other debilitating circumstances. As individuals, we all have different capacities for what we can handle. Healthcare workers that switch facilities, like travel nurses, don’t have a reliable way to source information about those facilities.</div>
           </div>
 
-          <div className="flex flex-col place-content-end">
-            <div className="flex w-full text-right text-3xl place-content-end">solution</div>
+          <div className="flex flex-col place-content-end py-4">
+            <div className="flex w-full text-right text-3xl place-content-end py-2">solution</div>
             <div className="flex text-lg text-right w-full place-content-end">
               <div className="flex w-2/3 ">To provide a space for healthcare workers to review their environments, and for those reviews to assist healthcare workers who are looking to switch facilities.</div>
         </div>

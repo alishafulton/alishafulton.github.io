@@ -16,7 +16,6 @@ export default function Project3() {
           
           <div className="h-min w-full grid grid-cols-2 items-center"> 
               <div className="leading-10 text-black text-lg justify-self-start">La La Land</div>
-              <div className="justify-self-end"><RedesignTag/></div>
           </div>
 </div>
 
