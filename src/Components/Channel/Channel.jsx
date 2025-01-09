@@ -57,8 +57,8 @@ export default function Channel () {
           </div>
 
           <div className="flex flex-col place-content-end">
-            <div className="flex w-full text-right text-3xl ">solution</div>
-            <div className="text-lg text-right w-2/3">To provide a space for healthcare workers to review their environments, and for those reviews to assist healthcare workers who are looking to switch facilities.</div>
+            <div className="flex w-full text-right text-3xl place-content-end">solution</div>
+            <div className="text-lg text-right w-2/3 place-content-end">To provide a space for healthcare workers to review their environments, and for those reviews to assist healthcare workers who are looking to switch facilities.</div>
         </div>
         </div>
 
