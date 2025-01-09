@@ -21,7 +21,7 @@ export default function App () {
           <Navbar/>
         </div>
        
-        <div className="flex w-full justify-center content-start">
+        <div className="flex w-full h-full justify-center content-start">
             <Outlet/>
         </div>
 
