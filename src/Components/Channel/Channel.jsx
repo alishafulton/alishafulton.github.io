@@ -42,14 +42,14 @@ export default function Channel () {
 
     return (
     
-      <div className="flex w-full justify-center bg-navy overflow-hidden">
-          <div className="flex flex-col w-2/3 overflow-auto justify-center" >
+      <div className="flex w-full bg-navy overflow-hidden">
+          <div className="flex flex-col w-full overflow-auto" >
    
 
-        <img src={ channel1 } alt="" className="py-4 flex w-500 justify-center" />
+        <img src={ channel1 } alt="" className="py-4 flex w-500 " />
         <img src={ channel1 } alt="" className="py-4 flex w-500" />
 
-        <div className="flex flex-col justify-self-center w-2/3 text-white font-channel space-y-4 py-4 ">
+        <div className="flex flex-col place-self-center w-2/3 text-white font-channel space-y-4 py-4 ">
 
           <div className="flex flex-col justify-center">
             <div className="flex w-full text-right text-3xl ">problem</div>
