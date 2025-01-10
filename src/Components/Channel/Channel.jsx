@@ -67,9 +67,9 @@ export default function Channel () {
         <img src={ channel1 } alt="" className="py-4 flex w-500" />
 
         
-        <div className="flex w-2/3 place-self-centerrelative">
+        <div className="flex w-2/3 place-self-center relative">
 
-          <div className="flex bg-white bg-opacity-20 rounded-lg z-10 absolute place-self-center w-500 h-500 "></div>
+          <div className="flex bg-white bg-opacity-20 rounded-lg z-10 absolute place-self-center w-500 h-500 " />
 
             <div className="grid grid-cols-3 space-x-2 z-20 text-white font-channel  ">
 
