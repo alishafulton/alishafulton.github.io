@@ -92,7 +92,7 @@ export default function Channel () {
 
              <div className="flex flex-col w-full max-w-xs place-items-center">
                <img src ={ channel4 } className="flex justify-center " />
-               <div className="flex xs:w-full md:w-2/3 place-self-center bg-navy opacity-90 rounded-xl xs:p-2 md:p-4 text-sm" >
+               <div className="flex xs:w-full md:w-2/3 place-self-center bg-navy opacity-90 rounded-xl p-2  md:p-4 text-sm" >
                After verifying a phone number, the user only needs to enter a name and an email address to continue.  
              </div>
 
@@ -104,7 +104,7 @@ export default function Channel () {
 
         <img src={ channel1 } alt="" className="py-4 flex w-500" />
 
-        <div className="flex w-2/3  place-self-center">
+        <div className="flex xs:w-full md:w-2/3  place-self-center">
 
           <div className="grid grid-cols-3">
            <img src={ channel5 } alt=""/>
