@@ -92,7 +92,7 @@ export default function Channel () {
 
              <div className="flex flex-col w-full max-w-xs place-items-center">
                <img src ={ channel4 } className="flex justify-center " />
-               <div className="flex xs:w-full md:w-2/3 place-self-center bg-navy opacity-90 rounded-xl p-2 text-sm" >
+               <div className="flex xs:w-full md:w-2/3 place-self-center bg-navy opacity-90 rounded-xl xs:p-2 md:p-4 text-sm" >
                After verifying a phone number, the user only needs to enter a name and an email address to continue.  
              </div>
 
@@ -106,15 +106,15 @@ export default function Channel () {
 
         <div className="flex w-2/3  place-self-center">
 
-        <div className="grid grid-cols-3">
-          <img src={ channel5 } alt=""/>
+          <div className="grid grid-cols-3">
+           <img src={ channel5 } alt=""/>
 
-          <div className="rounded-lg bg-white bg-opacity-50 place-self-center ">Users can take advantage of the in-app messaging system to connect 
-            and ask questions about facilities or environments. 
-            <br/> <br/>
-            They can feel more confident getting information from past or current employees.</div>
+           <div className="rounded-lg bg-white bg-opacity-50 place-self-center p-3 font-channel text-sm">Users can take advantage of the in-app messaging system to connect 
+             and ask questions about facilities or environments. 
+              <br/> <br/>
+             They can feel more confident getting information from past or current employees.</div>
 
-          <img src={ channel6 } alt=""/>
+           <img src={ channel6 } alt=""/>
         </div>
 
         </div>
