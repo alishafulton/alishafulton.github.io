@@ -65,7 +65,7 @@ export default function Channel () {
 
         
         <div className="flex w-2/3 place-self-center text-white font-channel relative">
-          <div className="flex w-500 h-500 bg-white bg-opacity-20 rounded-lg z-10 absolute justify-center items-center"></div>
+          <div className="flex w-500 h-500 bg-white bg-opacity-20 rounded-lg z-10 absolute m-auto left-0 right-0 top-0 bottom-0 "></div>
 
             <div className="grid grid-cols-3 space-x-2 z-20 relative">
 
