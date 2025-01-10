@@ -70,19 +70,19 @@ export default function Channel () {
             <div className="grid grid-cols-3 space-x-2 z-20 relative">
 
              <div className="flex flex-col">
-              <div className="flex bg-navy opacity-90 rounded-lg p-6" data-aos="fade-up" data-aos-delay="400">
+              <div className="flex bg-navy opacity-90 rounded-lg p-6" data-aos="fade-up" >
                  Healthcare workers can have limited free time, so keeping the sign up process simple is important. Users can type their phone number to gain access with a verification code, or sign in with familiar options. 
               </div>
                  <img src ={ channel2 } className="flex w-64 " data-aos="fade-up"  />
              </div>
 
              <div className="place-content-center">
-                <img src ={ channel3 } className="flex w-500 overflow-visible " data-aos="fade-up" data-aos-delay="100" />
+                <img src ={ channel3 } className="flex w-500 overflow-visible " data-aos="fade-up"  />
              </div>
 
              <div className="flex flex-col">
-               <img src ={ channel4 } className="flex w-64 " data-aos="fade-up" data-aos-delay="200" />
-               <div className="flex bg-navy opacity-90 rounded-lg p-6" data-aos="fade-up" data-aos-delay="600" >
+               <img src ={ channel4 } className="flex w-64 " data-aos="fade-up" />
+               <div className="flex bg-navy opacity-90 rounded-lg p-6" data-aos="fade-up" >
                Healthcare workers can have limited free time, so keeping the sign up process simple is important. Users can type their phone number to gain access with a verification code, or sign in with familiar options. 
              </div>
 
