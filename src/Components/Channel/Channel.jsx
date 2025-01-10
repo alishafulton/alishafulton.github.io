@@ -50,7 +50,7 @@ export default function Channel () {
         <div className="flex w-2/3 place-self-center ">
         <div className="flex w-full">
           <div className="flex"><img src={channel7} alt="" className="flex w-full" /></div>
-          <div className="flex w-1/2 p-4 m-4 font-channel text-black text-sm place-self-center">The home page is simple and welcoming. A statement verification of the user’s current facility includes a review button for quick access to partially completed form. The rest of the page has recent reviews of hospitals in the area.</div>
+          <div className="flex w-1/2 p-2 bg-white bg-opacity-50 rounded-lg font-channel text-black text-sm place-self-center">The home page is simple and welcoming. A statement verification of the user’s current facility includes a review button for quick access to partially completed form. The rest of the page has recent reviews of hospitals in the area.</div>
           <div className="flex"><img src={channel8} alt="" className="flex w-full" /></div>
         </div>
         </div>
