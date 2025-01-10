@@ -78,7 +78,7 @@ export default function Channel () {
                  <img src ={ channel2 } className="flex w-full justify-self-center"  />
              </div>
 
-             <div className="place-content-center max-w-md ">
+             <div className="place-content-center w-full max-w-md ">
                 <img src ={ channel3 } className="flex w-full"  />
              </div>
 
