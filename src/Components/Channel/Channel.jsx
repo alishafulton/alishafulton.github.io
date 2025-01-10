@@ -3,6 +3,9 @@ import channel1 from '../../assets/channel1.png';
 import channel2 from '../../assets/channel2.png';
 import channel3 from '../../assets/channel3.png';
 import channel4 from '../../assets/channel4.png';
+import channel5 from '../../assets/channel5.png';
+import channel6 from '../../assets/channel6.png';
+
 
 
 
@@ -93,6 +96,21 @@ export default function Channel () {
 
 
         <img src={ channel1 } alt="" className="py-4 flex w-500" />
+
+        <div className="flex w-2/3 rounded-lg bg-white bg-opacity-50">
+
+        <div className="grid grid-cols-3">
+          <img src={ channel5 } alt=""/>
+
+          <div>Users can take advantage of the in-app messaging system to connect 
+            and ask questions about facilities or environments. 
+            <br/> <br/>
+            They can feel more confident getting information from past or current employees.</div>
+
+          <img src={ channel6 } alt=""/>
+        </div>
+
+        </div>
 
 
 
