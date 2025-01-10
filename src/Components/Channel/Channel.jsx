@@ -74,10 +74,10 @@ export default function Channel () {
             <div className="grid grid-cols-3 space-x-2 z-20 text-white font-channel  ">
 
              <div className="flex flex-col">
-              <div className="flex bg-navy opacity-90 rounded-lg p-6" >
+              <div className="flex w-2/3 bg-navy opacity-90 rounded-lg p-6 text-sm" >
                  Healthcare workers can have limited free time, so keeping the sign up process simple is important. Users can type their phone number to gain access with a verification code, or sign in with familiar options. 
               </div>
-                 <img src ={ channel2 } className="flex w-64 "  />
+                 <img src ={ channel2 } className="flex w-full justify-self-center max-w-72"  />
              </div>
 
              <div className="place-content-center">
@@ -85,8 +85,8 @@ export default function Channel () {
              </div>
 
              <div className="flex flex-col">
-               <img src ={ channel4 } className="flex w-64 " />
-               <div className="flex bg-navy opacity-90 rounded-lg p-6" >
+               <img src ={ channel4 } className="flex justify-center " />
+               <div className="flex w-2/3 justify-center bg-navy opacity-90 rounded-lg p-6 text-sm" >
                Healthcare workers can have limited free time, so keeping the sign up process simple is important. Users can type their phone number to gain access with a verification code, or sign in with familiar options. 
              </div>
 
