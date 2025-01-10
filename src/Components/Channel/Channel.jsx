@@ -5,9 +5,8 @@ import channel3 from '../../assets/channel3.png';
 import channel4 from '../../assets/channel4.png';
 import channel5 from '../../assets/channel5.png';
 import channel6 from '../../assets/channel6.png';
-
-
-
+import channel7 from '../../assets/channel7.png';
+import channel8 from '../../assets/channel8.png';
 
 
 // i imported all of my sections of my portfolio
@@ -47,6 +46,13 @@ export default function Channel () {
    
 
         <img src={ channel1 } alt="" className="py-4 flex w-500 " />
+
+        <div className="flex w-full">
+          <img src={channel7} alt="" className="flex w-1/3" />
+          <div className=" font-channel text-black flex w-1/3">The home page is simple and welcoming. A statement verification of the user’s current facility includes a review button for quick access to partially completed form. The rest of the page has recent reviews of hospitals in the area.</div>
+          <img src={channel8} alt="" className="flex w-1/3" />
+        </div>
+
         <img src={ channel1 } alt="" className="py-4 flex w-500" />
 
         <div className="flex flex-col place-self-center w-2/3 text-white font-channel space-y-8 py-4 ">
