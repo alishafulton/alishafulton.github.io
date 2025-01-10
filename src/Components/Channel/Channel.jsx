@@ -77,7 +77,7 @@ export default function Channel () {
              </div>
 
              <div className="place-content-center">
-                <img src ={ channel3 } className="flex w-500 overflow-visible " data-aos="fade-up"  />
+                <img src ={ channel3 } className="flex w-500 overflow-visible "  />
              </div>
 
              <div className="flex flex-col">
