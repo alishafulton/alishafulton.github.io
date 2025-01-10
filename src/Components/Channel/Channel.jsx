@@ -69,20 +69,20 @@ export default function Channel () {
         
         <div className="flex w-2/3 place-self-center relative">
 
-            <div className="grid grid-cols-3 space-x-2 z-20 text-white font-channel  ">
+            <div className="flex w-full z-20 text-white font-channel  ">
 
-             <div className="flex flex-col">
+             <div className="flex flex-col w-full place-items-center max-w-72">
               <div className="flex w-2/3 bg-navy opacity-90 rounded-lg p-6 text-sm" >
                  Healthcare workers can have limited free time, so keeping the sign up process simple is important. Users can type their phone number to gain access with a verification code, or sign in with familiar options. 
               </div>
-                 <img src ={ channel2 } className="flex w-full justify-self-center max-w-72"  />
+                 <img src ={ channel2 } className="flex w-full justify-self-center"  />
              </div>
 
-             <div className="place-content-center -m-4 -p-2 ">
-                <img src ={ channel3 } className="flex "  />
+             <div className="place-content-center ">
+                <img src ={ channel3 } className="flex w-full"  />
              </div>
 
-             <div className="flex flex-col place-items-center">
+             <div className="flex flex-col w-full place-items-center max-w-72">
                <img src ={ channel4 } className="flex justify-center " />
                <div className="flex w-2/3 place-self-center bg-navy opacity-90 rounded-lg p-6 text-sm" >
                Healthcare workers can have limited free time, so keeping the sign up process simple is important. Users can type their phone number to gain access with a verification code, or sign in with familiar options. 
