@@ -47,9 +47,9 @@ export default function Channel () {
 
         <img src={ channel1 } alt="" className="py-4 flex w-500 " />
 
-        <div className="flex w-2/3 place-self-center ">
+        <div className="flex xs:w-full xs:p-2 md:p-0 md:w-2/3 place-self-center ">
           <img src={channel7} alt="" className="flex max-w-md" />
-          <div className=" font-channel text-black flex place-self-center">The home page is simple and welcoming. A statement verification of the user’s current facility includes a review button for quick access to partially completed form. The rest of the page has recent reviews of hospitals in the area.</div>
+          <div className="flex w-1/3 p-4 m-4 font-channel text-black place-self-center">The home page is simple and welcoming. A statement verification of the user’s current facility includes a review button for quick access to partially completed form. The rest of the page has recent reviews of hospitals in the area.</div>
           <img src={channel8} alt="" className="flex max-w-sm " />
         </div>
 
@@ -102,12 +102,12 @@ export default function Channel () {
 
         <img src={ channel1 } alt="" className="py-4 flex w-500" />
 
-        <div className="flex w-2/3 rounded-lg bg-white bg-opacity-50 place-self-center">
+        <div className="flex w-2/3  place-self-center">
 
         <div className="grid grid-cols-3">
           <img src={ channel5 } alt=""/>
 
-          <div>Users can take advantage of the in-app messaging system to connect 
+          <div className="rounded-lg bg-white bg-opacity-50 place-self-center ">Users can take advantage of the in-app messaging system to connect 
             and ask questions about facilities or environments. 
             <br/> <br/>
             They can feel more confident getting information from past or current employees.</div>
