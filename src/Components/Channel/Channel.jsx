@@ -65,7 +65,7 @@ export default function Channel () {
 
         
         <div className="flex w-2/3 place-self-center text-white font-channel static">
-          <div className="flex w-500 h-500 bg-white bg-opacity-20 rounded-lg z-10 "></div>
+          <div className="flex w-500 h-500 bg-white bg-opacity-20 rounded-lg z-10 absolute inset-0 "></div>
 
             <div className="grid grid-cols-3 space-x-2 z-20">
 
