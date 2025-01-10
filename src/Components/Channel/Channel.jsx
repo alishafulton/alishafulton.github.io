@@ -47,12 +47,13 @@ export default function Channel () {
 
         <img src={ channel1 } alt="" className="py-4 flex w-500 " />
 
-        <div className="flex xs:w-full xs:p-2 md:p-0 md:w-2/3 place-self-center ">
+        <div className="flex w-2/3 place-self-center ">
         <div className="flex w-full">
-          <img src={channel7} alt="" className="flex" />
+          <img src={channel7} alt="" className="flex max-w-md" />
           <div className="flex w-1/3 p-4 m-4 font-channel text-black place-self-center">The home page is simple and welcoming. A statement verification of the user’s current facility includes a review button for quick access to partially completed form. The rest of the page has recent reviews of hospitals in the area.</div>
-          <img src={channel8} alt="" className="flex " />
-        </div></div>
+          <img src={channel8} alt="" className="flex max-w-md" />
+        </div>
+        </div>
 
         <img src={ channel1 } alt="" className="py-4 flex w-500" />
 
