@@ -53,8 +53,7 @@ safelist: [
         purple: '#BEA7E5',
         white: '#FAFAFA',
         navy: '#162A3C',
-        lightblue: '#3D6A8F',
-        darkblue: '#233f56',
+        channelbg: '#EBF0F5',
         eggshell: '#FCFAF1',
       },
       backgroundImage: {
