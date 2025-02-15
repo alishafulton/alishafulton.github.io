@@ -1,12 +1,8 @@
 import React, { useState } from 'react';
-import channel1 from '../../assets/channel1.png';
-import channel2 from '../../assets/channel2.png';
-import channel3 from '../../assets/channel3.png';
-import channel4 from '../../assets/channel4.png';
-import channel5 from '../../assets/channel5.png';
-import channel6 from '../../assets/channel6.png';
-import channel7 from '../../assets/channel7.png';
-import channel8 from '../../assets/channel8.png';
+import biome1 from '../../assets/biome1.png';
+import biome2 from '../../assets/biome2.png';
+import biome3 from '../../assets/biome3.png';
+import biome4 from '../../assets/biome4.png';
 
 
 // i imported all of my sections of my portfolio
@@ -42,30 +38,15 @@ export default function Channel () {
     return (
     
       <div className="flex w-full bg-channelbg overflow-hidden">
-          <div className="flex flex-col w-2/3 overflow-auto" >
-   
+          <div className="flex flex-col w-2/3 overflow-auto justify-center" >
 
-        <img src={ channel1 } alt="" className="py-4 flex w-full " />
+        <img src={ biome1 } alt="" className="py-4 flex w-full " />
 
+        <img src={ biome2 } alt="" className="py-4 flex w-full " />
 
-        <img src={ channel1 } alt="" className="py-4 flex w-full " />
+        <img src={ biome3 } alt="" className="py-4 flex w-full" />
 
-
-        <img src={ channel1 } alt="" className="py-4 flex w-full" />
-
-
-
-        <img src={ channel1 } alt="" className="py-4 flex w-full" />
-
-        
-
-
-
-        <img src={ channel1 } alt="" className="py-4 flex w-full" />
-
-
-
-
+        <img src={ biome4 } alt="" className="py-4 flex w-full" />
 
 
 
