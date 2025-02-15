@@ -44,7 +44,7 @@ export default function Channel () {
 
         <img src={ biome2 } alt="" className="py-4 flex w-full " />
 
-        <img src={ biome3 } alt="" className="py-4 flex w-full" />
+        <img src={ biome3 } alt="" className="py-4 flex w-full" />g
 
         <img src={ biome4 } alt="" className="py-4 flex w-full" />
 
