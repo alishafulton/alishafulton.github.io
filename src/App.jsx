@@ -9,8 +9,7 @@ function App() {
     <>
       <div>
         <h1 className="text-xl font-mono">
-
-        Hi
+- 2025
 </h1>
         </div>
     </>
