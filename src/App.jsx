@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <div>
-        <h1 className="text-xl font-mono">
+        <h1 className="text-lg font-mono">
 - 2025
 </h1>
         </div>
