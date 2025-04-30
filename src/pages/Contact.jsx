@@ -4,10 +4,10 @@ import React from 'react'
 
 
 
-function About () {
+function Contact () {
   return <>
- about
+ hmuuuu
   </>;
 }
 
-export default About;
+export default Contact;

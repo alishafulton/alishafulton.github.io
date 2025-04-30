@@ -1,16 +1,10 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
 import React from 'react'
 import Home from './pages/Home';
-import About from './pages/About';
 
 
 function App () {
-  return <BrowserRouter basename={import.meta.env.BASE_URL} >
-    <Routes>
-      <Route path="/" element={ <Home/> }/>
-      <Route path="/" element={ <About/> }/>
-    </Routes>
-    </BrowserRouter> ;
+  return <div><Outlet/></div> ;
 }
 
 export default App;
