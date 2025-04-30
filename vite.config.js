@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [
     TanStackRouterVite(),
     react()],
-  base: "/",
+  base: "",
   server: {
     open: true,
     port: 3001,
