@@ -67,4 +67,4 @@ Please change the parent <Route path="${J}"> to <Route path="${J==="/"?"*":`${J}
  * LICENSE.md file in the root directory of this source tree.
  *
  * @license MIT
- */function kg(i){return H.createElement(fg,{flushSync:$g.flushSync,...i})}function Wg(){return ul.jsx(ul.Fragment,{children:"hi"})}function Fg(){return ul.jsx("div",{children:ul.jsx(sg,{})})}function Pg(){return ul.jsx(ul.Fragment,{children:"hmuuuu"})}const Ig=Lg([{path:"/",element:ul.jsx(Fg,{}),children:[{path:"/",element:ul.jsx(Wg,{})},{path:"contact",element:ul.jsx(Pg,{})}]}]);Yy.createRoot(document.getElementById("root")).render(ul.jsx(Cy.StrictMode,{children:ul.jsx(kg,{router:Ig})}));
+ */function kg(i){return H.createElement(fg,{flushSync:$g.flushSync,...i})}function Wg(){return ul.jsx(ul.Fragment,{children:"hi"})}function Fg(){return ul.jsx("div",{children:ul.jsx(sg,{})})}function Pg(){return ul.jsx(ul.Fragment,{children:"hmuuuu"})}const Ig=Lg([{path:"/",element:ul.jsx(Fg,{}),children:[{path:"/",element:ul.jsx(Wg,{})},{path:"/contact",element:ul.jsx(Pg,{})}]}]);Yy.createRoot(document.getElementById("root")).render(ul.jsx(Cy.StrictMode,{children:ul.jsx(kg,{router:Ig})}));
