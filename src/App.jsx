@@ -6,11 +6,13 @@ import HomePage from "./components/HomePage";
 function App() {
   return (
     <>
+    <div class="w-full bg-green-300">
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
       </Routes>
+      </div>
     </>
   );
 }
