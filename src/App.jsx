@@ -5,13 +5,13 @@ import HomePage from "./components/HomePage";
 
 function App() {
   return (
-    <div className="bg-light-grey">
+    <>
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
       </Routes>
-    </div>
+    </>
   );
 }
 
