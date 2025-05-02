@@ -6,7 +6,7 @@ import HomePage from "./components/HomePage";
 function App() {
   return (
     <>
-    <div class="w-full bg-green-300">
+    <div class="w-full h-screen bg-gray-100">
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
