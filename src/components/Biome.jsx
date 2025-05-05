@@ -1,6 +1,6 @@
 import React from 'react'
 import BiomeHeader from './../assets/media/Biome-Header.png'
-import Biome2 from './../assets/media/Biome-2.jpg'
+import Biome2 from './../assets/media/biome-2.jpg'
 import graph1 from './../assets/media/graph1.png'
 import graph2 from './../assets/media/graph2.png'
 import graph3 from './../assets/media/graph3.png'
