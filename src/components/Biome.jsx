@@ -250,7 +250,7 @@ function BiomePage () {
 
         <div class="py-4 bg-midnight rounded-2xl "><img src={ userflow }/></div>
 
-        <div class="w-full h-full aspect-6/4 "><Prototype1 /></div>
+        <div class="w-full h-full aspect-[6/4] "><Prototype1 /></div>
 
         <img src={snapshots} class="-my-2"/>
 

@@ -18,7 +18,7 @@ function UserPersonas () {
         </div>
             
         <div class="grid grid-cols-5">
-            <div class="col-span-2 justify-between">
+            <div class="col-span-2 justify-between space-y-4">
 
                 <div class="w-full relative ">
                     <img src={nursepersona} class="rounded-xl"/>
@@ -138,7 +138,7 @@ function UserPersonas () {
 
 
 
-            <div class="col-span-2 flex flex-col justify-between">
+            <div class="col-span-2 flex flex-col justify-between space-y-4">
 
                 <div class="flex w-full bg-grass rounded-2xl justify-center">
                     <div class="text-sm/6 text-white font-outfit-light w-2/3 py-6">
