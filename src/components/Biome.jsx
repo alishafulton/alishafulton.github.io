@@ -33,7 +33,7 @@ function BiomePage () {
     </div>
 
     <br/>
-    <div class="bg-midnight w-3/4 flex flex-col items-center rounded-2xl mt-10">
+    <div class="bg-midnight w-3/4 flex flex-col items-center rounded-2xl mt-10 pb-4">
         <div class="w-full">
             <div class="font-outfit-light text-[10px] opacity-85 text-white 
                         bg-grass rounded-2xl w-fit px-2 m-4 py-1">
@@ -108,12 +108,12 @@ function BiomePage () {
     <div class="w-3/4 flex flex-col items-center rounded-2xl space-y-4">
         <div class="w-full">
             <div class="font-outfit-light text-[10px] opacity-85 text-white 
-                        bg-grass rounded-2xl w-fit px-2 my-4 py-1">
+                        bg-grass rounded-2xl w-fit px-2 mt-4 mb-2 py-1">
                             Research
             </div>
         </div>
         
-        <div class="flex flex-col bg-midnight/10 rounded-lg w-full text-midnight pt-8 items-center font-outfit text-midnight h-full overflow-hidden">
+        <div class="flex flex-col bg-midnight/10 rounded-xl w-full text-midnight pt-8 items-center font-outfit text-midnight h-full overflow-hidden">
             
             <div class="text-4xl text-center">Understanding The Symptoms</div>
             

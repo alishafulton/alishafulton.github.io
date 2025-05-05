@@ -8,11 +8,11 @@ function UserPersonas () {
     <div class="w-full">
         <div class="w-full flex gap-2">
             <div class="font-outfit-light text-[10px] opacity-85 text-white 
-                        bg-grass rounded-2xl w-fit px-2 my-4 py-1">
+                        bg-grass rounded-2xl w-fit px-2 mt-4 mb-2 py-1">
                     Research
             </div>
             <div class="font-outfit-light text-[10px] opacity-85 text-white 
-                        bg-grass rounded-2xl w-fit px-2 my-4 py-1">
+                        bg-grass rounded-2xl w-fit px-2 mt-4 mb-2 py-1">
                     User Personas
             </div>
         </div>
