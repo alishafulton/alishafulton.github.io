@@ -254,7 +254,7 @@ function BiomePage () {
 
         <img src={snapshots} class="-my-2"/>
 
-        <div class="w-full h-full aspect-6/4 "><Prototype2 /></div>
+        <div class="w-full h-full aspect-[3/2] "><Prototype2 /></div>
     </div>
 
     <div class="flex w-3/4"><StyleGuide/></div>

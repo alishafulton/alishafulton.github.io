@@ -15,7 +15,7 @@ function StyleGuide () {
 
         <div class="flex w-full h-full absolute top-0 right-0">
             <div class="flex w-full h-full place-content-center">
-                <div class="flex flex-col w-5/6 h-full py-24 place-self-center justify-between">
+                <div class="flex flex-col w-5/6 h-full py-20 place-self-center justify-between">
                     <div class="grid grid-cols-4 gap-10 w-full h-5/12 ">
                         <div class="flex flex-col gap-10">
                             <div class="rounded-3xl bg-[#FAFAFA] text-black content-end p-4 font-outfit text-sm h-full drop-shadow-xl/20">#FAFAFA</div>
