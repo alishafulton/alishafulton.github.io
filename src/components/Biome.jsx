@@ -105,7 +105,7 @@ function BiomePage () {
 
  <div class="w-3/4"><AboutBiome/></div>
 
-    <div class="w-3/4 flex flex-col items-center rounded-2xl ">
+    <div class="w-3/4 flex flex-col items-center rounded-2xl space-y-4">
         <div class="w-full">
             <div class="font-outfit-light text-[10px] opacity-85 text-white 
                         bg-grass rounded-2xl w-fit px-2 my-4 py-1">
