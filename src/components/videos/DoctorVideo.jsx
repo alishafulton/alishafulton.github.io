@@ -1,5 +1,5 @@
 import React from 'react'
-import doctorvideo from '../../assets/media/Video_User.mov'
+import doctorvideo from '../../assets/media/VideoUser.mov'
 
 const DoctorVideo = () => {
   return (
