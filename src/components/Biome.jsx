@@ -248,13 +248,13 @@ function BiomePage () {
 
         <UserPersonas/>
 
-        <div class="py-4"><img src={ userflow }/></div>
+        <div class="py-4 bg-midnight rounded-2xl "><img src={ userflow }/></div>
 
-        <div class="w-full h-full aspect-7/4 "><Prototype1 /></div>
+        <div class="w-full h-full aspect-6/4 "><Prototype1 /></div>
 
         <img src={snapshots} class="-my-2"/>
 
-        <div class="w-full h-full aspect-7/4 "><Prototype2 /></div>
+        <div class="w-full h-full aspect-6/4 "><Prototype2 /></div>
     </div>
 
     <div class="flex w-3/4"><StyleGuide/></div>
