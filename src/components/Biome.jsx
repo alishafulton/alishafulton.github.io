@@ -12,7 +12,7 @@ import Prototype1 from './BiomeComponents/Prototype1'
 import Prototype2 from './BiomeComponents/Prototype2'
 import snapshots from './../assets/media/Snapshots.png'
 import StyleGuide from './BiomeComponents/StyleGuide'
-
+import { motion } from "motion/react"
 
 
 
@@ -21,16 +21,21 @@ function BiomePage () {
   <div class="flex w-full h-full overflow-auto">
     <div class="flex flex-col items-center space-y-8">
 
-    <img src={BiomeHeader} class="w-3/4"/>
+        <img src={BiomeHeader} class="w-3/4" />
 
-    <div class="w-3/5 my-8">
+    <motion.div 
+        initial={{ opacity: 0, y: -100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.5, duration: 1.1, ease: 'easeOut' }}
+        viewport={{ once: true }}
+    class="w-3/5 my-16">
         <div class="text-7xl font-castio">biome</div>
         <div class="text-2xl pb-6">_____________________________________________________</div>
-        <div class="font-outfit text-sm w-4/5">
+        <div class="font-outfit text-sm xl:text-md w-4/5">
             Biome represents a design concept for a healthcare-focused social 
             media application, providing a space for users to review their work 
             environments and assist those looking to grow their career.</div>
-    </div>
+    </motion.div>
 
     <br/>
     <div class="bg-midnight w-3/4 flex flex-col items-center rounded-2xl mt-10 pb-4">
@@ -40,9 +45,9 @@ function BiomePage () {
                             About
             </div>
         </div>
-        <br/>
+
         <div class="w-4/5 flex flex-col items-center">
-            <div class="font-outfit-light text-4xl text-white">A Defining Diagnosis</div>
+            <div class="font-outfit-light text-5xl text-white my-6">A Defining Diagnosis</div>
  
             <div class="font-outfit-light text-sm text-white text-center w-4/5 my-5">
                     Healthcare workers take care of us when we’re at our worst. 
@@ -61,36 +66,53 @@ function BiomePage () {
             </div>
 
             <div class="grid grid-cols-3 w-full gap-10 mt-8  text-midnight">
-                <div class="bg-white rounded-xl w-full">
+                <motion.div 
+                    initial={{ opacity: 0, y: 50 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.5, duration: .9, ease: 'easeOut' }}
+                    viewport={{ once: true }} class="bg-white rounded-xl w-full">
+
                     <div class="py-8 flex flex-col items-center gap-2">
                         <div class="font-outfit-bold text-5xl">46%</div>
                         <div class="font-outfit text-xs text-center w-1/2">of health workers reported often feeling burned out</div>
                     </div>
-                </div>
+                </motion.div>
 
-                <div class="bg-white rounded-lg w-full h-full">
+                <motion.div 
+                    initial={{ opacity: 0, y: 50 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 1.0, duration: .9, ease: 'easeOut' }}
+                    viewport={{ once: true }} class="bg-white rounded-xl w-full">
                     <div class="font-outfit text-center text-sm h-full content-center px-4">
                         Health workers reported fewer mental health issues when 
                         they said they work in supportive environments.
                     </div>
-                </div>
+                </motion.div>
 
 
-                <div class="bg-white rounded-xl w-full">
+                <motion.div 
+                    initial={{ opacity: 0, y: 50 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 1.5, duration: .9, ease: 'easeOut' }}
+                    viewport={{ once: true }} class="bg-white rounded-xl w-full">
                     <div class="py-8 flex flex-col items-center gap-2 ">
                         <div class="font-outfit-bold text-5xl">44%</div>
                         <div class="font-outfit text-xs text-center w-1/2">
                         of health workers intended to look for a new job</div>
                     </div>
-                </div>
+                </motion.div>
             </div>
 
-            <div class="text-[8px] text-white opacity-25 font-outfit-light pt-1 w-full">
+            <motion.div 
+                    initial={{ opacity: 0, y: 50 }}
+                    whileInView={{ opacity: .2, y: 0 }}
+                    transition={{ delay: 1.7, duration: .9, ease: 'easeOut' }}
+                    viewport={{ once: true }} class="text-[8px] text-white opacity-25 font-outfit-light pt-1 pb-2 w-full">
                 <div class="w-5/6">Nigam JA, Barker RM, Cunningham TR, Swanson NG, Chosewood LC. 
                 Vital Signs: Health Worker–Perceived Working Conditions and Symptoms of Poor Mental 
                 Health — Quality of Worklife Survey, United States, 2018–2022. MMWR Morb Mortal Wkly 
                 Rep 2023;72:1197–1205. DOI: http://dx.doi.org/10.15585/mmwr.mm7244e1</div>
-            </div>
+            </motion.div>
 
         </div>
     </div>
@@ -250,11 +272,11 @@ function BiomePage () {
 
         <div class="py-4 bg-midnight rounded-2xl "><img src={ userflow }/></div>
 
-        <div class="w-full h-full aspect-[6/4] "><Prototype1 /></div>
+        <div class="w-full h-full aspect-[5/4] -mt-10"><Prototype1 /></div>
 
         <img src={snapshots} class="-my-2"/>
 
-        <div class="w-full h-full aspect-[4/3] "><Prototype2 /></div>
+        <div class="w-full h-full aspect-[5/4] "><Prototype2 /></div>
     </div>
 
     <div class="flex w-3/4"><StyleGuide/></div>
