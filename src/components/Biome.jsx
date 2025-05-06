@@ -83,7 +83,7 @@ function BiomePage () {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: 1.0, duration: .9, ease: 'easeOut' }}
                     viewport={{ once: true }} class="bg-white rounded-xl w-full">
-                    <div class="font-outfit text-center text-sm h-full content-center px-4">
+                    <div class="font-outfit text-center text-sm h-full content-center w-2/3">
                         Health workers reported fewer mental health issues when 
                         they said they work in supportive environments.
                     </div>
@@ -130,12 +130,12 @@ function BiomePage () {
     <div class="w-3/4 flex flex-col items-center rounded-2xl space-y-4">
         <div class="w-full">
             <div class="font-outfit-light text-[10px] opacity-85 text-white 
-                        bg-grass rounded-2xl w-fit px-2 mt-4 mb-2 py-1">
+                        bg-grass rounded-2xl w-fit px-2 mt-4 mb-1 py-1">
                             Research
             </div>
         </div>
         
-        <div class="flex flex-col bg-midnight/10 rounded-xl w-full text-midnight pt-8 items-center font-outfit text-midnight h-full overflow-hidden">
+        <div class="flex flex-col bg-midnight/10 rounded-xl w-full text-midnight pt-2 items-center font-outfit text-midnight h-full overflow-hidden">
             
             <div class="text-4xl text-center">Understanding The Symptoms</div>
             
