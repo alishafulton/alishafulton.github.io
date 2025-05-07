@@ -146,7 +146,7 @@ function BiomePage () {
     </div>
 
     {/* BIG PICTURE */}
-    <div class="w-full lg:w-3/4 my-20 relative 
+    <div class="flex w-full lg:w-3/4 my-20 relative 
                 after:absolute after:inset-0 after:bg-gradient-to-t 
                 after:from-gray-100 after:via-transparent 
                 after:to-gray-100 after:mix-blend-normal 
@@ -155,7 +155,7 @@ function BiomePage () {
     </div>
 
     {/* ABOUT */}
-    <div class="w-full lg:w-3/4"><AboutBiome/></div>
+    <div class="flex w-full lg:w-3/4"><AboutBiome/></div>
 
     {/* RESEARCH */}
     <div class=" flex flex-col w-full lg:w-3/4 items-center rounded-2xl pt-16 ">
@@ -334,13 +334,13 @@ function BiomePage () {
     
         <div class="flex w-full lg:w-3/4 py-8"><UserPersonas/></div>
 
-        <div class="py-4 bg-midnight rounded-2xl "><img src={ userflow }/></div>
+        <div class="flex w-full lg:w-3/4 py-4 bg-midnight rounded-2xl "><img src={ userflow }/></div>
 
-        <div class="w-full h-full aspect-[5/4] -mt-10"><Prototype1 /></div>
+        <div class="flex w-full lg:w-3/4 h-full aspect-[5/4] -mt-10"><Prototype1 /></div>
 
-        <img src={snapshots} class="-my-2"/>
+        <div class="flex w-full lg:w-3/4 "><img src={snapshots} class="-my-2"/></div>
 
-        <div class="w-full h-full aspect-[5/4] "><Prototype2 /></div>
+        <div class="flex w-full lg:w-3/4  h-full aspect-[5/4] "><Prototype2 /></div>
 
 
     <div class="flex w-3/4"><StyleGuide/></div>
