@@ -199,7 +199,7 @@ function BiomePage () {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5, duration: 0.6, ease: 'easeOut' }}
                 viewport={{ once: true }}
-                class="w-[140%] grid grid-cols-5 gap-4 my-8">
+                class="w-[160%] md:w-[140%] grid grid-cols-5 gap-4 my-8">
 
                     <div class="bg-midnight/30 rounded-lg p-2 flex flex-col place-content-center space-y-3">
                         <div class="font-outfit text-[8px] text-center ">What is your primary factor in determining the quality of your role/shift?</div>
@@ -218,8 +218,8 @@ function BiomePage () {
                     <div class="bg-midnight/30 rounded-lg p-2 flex flex-col place-content-center space-y-2 ">
                         <div class="font-outfit text-[8px] md:text-xs text-center ">What is your primary method for finding a new facility?</div>
                         
-                        <div class="grid grid-cols-5 gap-4 ml-2 mx-2 lg:mx-4 place-items-center">
-                            <img src={ graph1 } class="aspect-square col-span-2 p-1 lg:p-2 xl:p-4" />
+                        <div class="grid grid-cols-5 gap-4 ml-2 mx-1 lg:mx-4 place-items-center">
+                            <img src={ graph1 } class="aspect-square col-span-2 p-0 lg:p-2 xl:p-4" />
 
                             <div class="flex flex-col  place-content-center col-span-3">
                                 <div class="flex gap-1 py-1"><div class="bg-midnight aspect-square rounded-lg h-[8px] w-[8px] "></div> <div class="text-[8px] lg:text-[10px] leading-2"> Travel Nursing Agency</div></div>
@@ -232,8 +232,8 @@ function BiomePage () {
                     <div class="bg-midnight/30 rounded-lg p-2 flex flex-col place-content-center space-y-3">
                         <div class="font-outfit text-[8px] md:text-xs text-center ">What is your primary factor in making a decision?</div>
                         
-                        <div class="grid grid-cols-5 gap-4 ml-2 mx-2 lg:mx-4 place-items-center">
-                            <img src={ graph2 } class="aspect-square col-span-2 p-1 lg:p-2 xl:p-4" />
+                        <div class="grid grid-cols-5 gap-4 ml-2 mx-1 lg:mx-4 place-items-center">
+                            <img src={ graph2 } class="aspect-square col-span-2 p-0 lg:p-2 xl:p-4" />
 
                             <div class="flex flex-col  place-content-center col-span-3">
                                 <div class="flex gap-1 py-1"><div class="bg-midnight rounded-lg h-[8px] w-[8px] "></div> <div class="text-[8px] lg:text-[10px] leading-2"> Location</div></div>
@@ -246,8 +246,8 @@ function BiomePage () {
                     <div class="bg-midnight/30 rounded-lg p-2 flex flex-col place-content-center space-y-3">
                         <div class="font-outfit text-[8px] md:text-xs text-center ">What is your primary factor in determining the quality of your role/shift?</div>
                         
-                        <div class="grid grid-cols-5 gap-4 ml-2 mx-2 lg:mx-4 place-items-center">
-                            <img src={ graph3 } class="aspect-square col-span-2 p-1 lg:p-2 xl:p-4" />
+                        <div class="grid grid-cols-5 gap-4 ml-2 mx-1 lg:mx-4 place-items-center">
+                            <img src={ graph3 } class="aspect-square col-span-2 p-0 lg:p-2 xl:p-4" />
 
                             <div class="flex flex-col  place-content-center col-span-3">
                                 <div class="flex gap-1 py-1"><div class="bg-midnight rounded-lg h-[8px] w-[8px] "></div> <div class="text-[8px] lg:text-[10px] leading-2"> Staff Ratio</div></div>
@@ -261,7 +261,7 @@ function BiomePage () {
                         <div class="font-outfit text-[8px] md:text-xs text-center ">What is your primary factor in determining the quality of your role/shift?</div>
                         
                         <div class="grid grid-cols-5 gap-4 ml-2 mx-2 lg:mx-4 place-items-center">
-                            <img src={ graph4 } class="aspect-square col-span-2 p-1 lg:p-2 xl:p-4" />
+                            <img src={ graph4 } class="aspect-square col-span-2 p-0 lg:p-2 xl:p-4" />
 
                             <div class="flex flex-col  place-content-center col-span-3">
                                 <div class="flex gap-1 py-1"><div class="bg-midnight rounded-lg h-[8px] w-[8px] "></div> <div class="text-[8px] lg:text-[10px] leading-2"> Staff Ratio</div></div>
