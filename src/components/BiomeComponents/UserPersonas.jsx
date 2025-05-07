@@ -42,10 +42,10 @@ function UserPersonas () {
                 </div>
 
                 {/* CHALLENGES/NEEDS */}
-                <div class="flex gap-2 lg:gap-4">
+                <div class="flex flex-col lg:flex-row gap-2 lg:gap-4">
                     <div class="bg-midnight/30 flex w-full rounded-xl ">
-                        <div class="flex flex-col space-y-2 pl-3 pr-2 lg:px-4 xl:px-8 py-2 lg:py-6 align-start">
-                            <div class="font-outfit-bold text-[10px] lg:text-[12px]">
+                        <div class="flex flex-col space-y-2 px-4 xl:px-8 py-4 lg:py-6 align-start">
+                            <div class="font-outfit-bold text-[11px] md:text-[13px] ml-2">
                                 CHALLENGES
                             </div>
 
@@ -57,8 +57,8 @@ function UserPersonas () {
                     </div>
                    
                     <div class="bg-midnight/30 flex w-full rounded-xl" >
-                        <div class="flex flex-col space-y-2 pl-3 pr-2 lg:px-4 xl:px-8 py-2 lg:py-6 align-start">
-                            <div class="font-outfit-bold text-[10px]  lg:text-[12px]">
+                        <div class="flex flex-col space-y-2 px-4 xl:px-8 py-4 lg:py-6 align-start">
+                            <div class="font-outfit-bold text-[11px] md:text-[13px] ml-2">
                                 NEEDS
                             </div>
 
@@ -171,9 +171,9 @@ function UserPersonas () {
                 </div>
 
                 {/* CHALLENGES/NEEDS */}
-                <div class="flex gap-2 lg:gap-4">
+                <div class="flex flex-col lg:flex-row gap-2 lg:gap-4">
                     <div class="bg-midnight/30 flex w-full rounded-xl ">
-                        <div class="flex flex-col space-y-1 px-2 lg:px-4 xl:px-8 py-3 md:py-4 lg:py-6 align-start">
+                        <div class="flex flex-col space-y-2 px-4 xl:px-8 py-4 lg:py-6 align-start">
                             <div class="font-outfit-bold text-[11px] md:text-[13px] ml-2">
                                 CHALLENGES
                             </div>
@@ -187,7 +187,7 @@ function UserPersonas () {
                     </div>
                    
                     <div class="bg-midnight/30 flex w-full rounded-xl" >
-                        <div class="flex flex-col space-y-1 px-2 lg:px-4 xl:px-8 py-3 md:py-4 lg:py-6 align-start">
+                        <div class="flex flex-col space-y-2 px-4 xl:px-8 py-4 lg:py-6 align-start">
                             <div class="font-outfit-bold text-[11px]  md:text-[13px] ml-2">
                                 NEEDS
                             </div>
