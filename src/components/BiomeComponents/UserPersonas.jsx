@@ -99,12 +99,12 @@ function UserPersonas () {
                     <div class="md:space-y-1">
                         <div class="text-[7px] xl:text-[9px] text-midnight/60">PERSONALITY</div>
                         <div class="flex flex-wrap font-outfit-light gap-1 py-1">
-                            <div class="bg-grass text-[8px] xl:text-sm text-white px-1 py-0.5 rounded-xl">Outgoing</div>
-                            <div class="bg-grass text-[8px] xl:text-sm text-white px-1 py-0.5 rounded-xl">Driven</div>
-                            <div class="bg-grass text-[8px] xl:text-sm text-white px-1 py-0.5 rounded-xl">Active</div>
-                            <div class="bg-grass text-[8px] xl:text-sm  text-white px-1 py-0.5 rounded-xl">Generous</div>
-                            <div class="bg-grass text-[8px] xl:text-sm text-white px-1 py-0.5 rounded-xl">Reliable</div>
-                            <div class="bg-grass text-[8px] xl:text-sm text-white px-1 py-0.5 rounded-xl">Adventurous</div>
+                            <div class="bg-grass text-[8px] xl:text-sm text-white px-1 lg:px-2 py-0.5 lg:py-1 rounded-xl lg:rounded-2xl">Outgoing</div>
+                            <div class="bg-grass text-[8px] xl:text-sm text-white px-1 lg:px-2 py-0.5 lg:py-1 rounded-xl lg:rounded-2xl">Driven</div>
+                            <div class="bg-grass text-[8px] xl:text-sm text-white px-1 lg:px-2 py-0.5 lg:py-1 rounded-xl lg:rounded-2xl">Active</div>
+                            <div class="bg-grass text-[8px] xl:text-sm  text-white px-1 lg:px-2 py-0.5 lg:py-1 rounded-xl lg:rounded-2xl">Generous</div>
+                            <div class="bg-grass text-[8px] xl:text-sm text-white px-1 lg:px-2 py-0.5 lg:py-1 rounded-xl lg:rounded-2xl">Reliable</div>
+                            <div class="bg-grass text-[8px] xl:text-sm text-white px-1 lg:px-2 py-0.5 lg:py-1 rounded-xl lg:rounded-2xl">Adventurous</div>
                         </div>
                     </div>
 
@@ -136,13 +136,13 @@ function UserPersonas () {
                     {/* PERSONALITY */}
                     <div class="lg:space-y-1">
                         <div class="text-[7px] xl:text-[9px] text-midnight/60 text-end">PERSONALITY</div>
-                        <div class="flex flex-wrap font-outfit-light gap-1 py-1">
-                            <div class="bg-grass text-[8px] xl:text-sm text-white px-1 py-0.5 rounded-xl">Patient</div>
-                            <div class="bg-grass text-[8px] xl:text-sm text-white px-1 py-0.5 rounded-xl">Confident</div>
-                            <div class="bg-grass text-[8px] xl:text-sm text-white px-1 py-0.5 rounded-xl">Independent</div>
-                            <div class="bg-grass text-[8px] xl:text-sm text-white px-1 py-0.5 rounded-xl">Devoted</div>
-                            <div class="bg-grass text-[8px] xl:text-sm text-white px-1 py-0.5 rounded-xl">Sensible</div>
-                            <div class="bg-grass text-[8px] xl:text-sm text-white px-1 py-0.5 rounded-xl">Charismatic</div>
+                        <div class="flex flex-wrap font-outfit-light gap-1 py-1 place-content-end">
+                            <div class="bg-grass text-[8px] xl:text-sm text-white px-1 lg:px-2 py-0.5 lg:py-1 rounded-xl lg:rounded-2xl">Patient</div>
+                            <div class="bg-grass text-[8px] xl:text-sm text-white px-1 lg:px-2 py-0.5 lg:py-1 rounded-xl lg:rounded-2xl">Confident</div>
+                            <div class="bg-grass text-[8px] xl:text-sm text-white px-1 lg:px-2 py-0.5 lg:py-1 rounded-xl lg:rounded-2xl">Independent</div>
+                            <div class="bg-grass text-[8px] xl:text-sm text-white px-1 lg:px-2 py-0.5 lg:py-1 rounded-xl lg:rounded-2xl">Devoted</div>
+                            <div class="bg-grass text-[8px] xl:text-sm text-white px-1 lg:px-2 py-0.5 lg:py-1 rounded-xl lg:rounded-2xl">Sensible</div>
+                            <div class="bg-grass text-[8px] xl:text-sm text-white px-1 lg:px-2 py-0.5 lg:py-1 rounded-xl lg:rounded-2xl">Charismatic</div>
                             
                         </div>
                     </div>
@@ -205,11 +205,11 @@ function UserPersonas () {
                 <div class="w-full relative ">
                     <DoctorVideo class=""/>
 
-                    <div class="flex flex-col w-2/3 absolute bottom-3 right-3 space-y-3 text-end items-end">
-                        <div class="bg-white/60 font-outfit-light text-xl lg:text-3xl backdrop-blur-sm px-4 py-1 lg:py-2 rounded-3xl ">
+                    <div class="flex flex-col w-7/8 lg:w-2/3 absolute bottom-1 lg:bottom-3 right-1 lg:right-3 space-y-1 lg:space-y-3 text-end items-end text-end items-end">
+                        <div class="bg-white/60 font-outfit-light text-xl/6 lg:text-3xl backdrop-blur-sm px-2 lg:px-4 py-1 lg:py-2 rounded-xl lg:rounded-3xl">
                             Samuel, 39
                         </div>
-                        <div class=" bg-white/60 font-outfit-light text-[8px] lg:text-[10px]/4 backdrop-blur-sm px-4 py-2 rounded-2xl ">
+                        <div class=" bg-white/60 font-outfit-light text-[8px] lg:text-[10px]/4 backdrop-blur-sm px-2 lg:px-4 py-1 lg:py-2 rounded-xl lg:rounded-2xl ">
                         Samuel is a skilled, board-certified pediatrician, and has been 
                         recognized by business and healthcare journals. He is devoted and 
                         dedicated, but is facing a major life milestone that requires a move. 
