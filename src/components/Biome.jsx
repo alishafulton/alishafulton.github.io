@@ -278,7 +278,7 @@ function BiomePage () {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5, duration: 0.6, ease: 'easeOut' }}
-                viewport={{ once: true }} class="w-full">
+                viewport={{ once: true }} class="flex flex-col w-full">
                 <div class="text-lg text-center pb-4">Key Interview Findings</div>
             
 
