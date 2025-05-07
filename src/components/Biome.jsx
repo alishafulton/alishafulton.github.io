@@ -285,42 +285,42 @@ function BiomePage () {
                 <div class="w-full h-full px-10 flex flex-col items-center gap-4 ">
 
                     <div class="flex w-3/4 gap-4">
-                        <div class="bg-midnight/30 p-2 rounded-lg flex px-4 content-center w-full">
-                            <div class="text-4xl md:text-6xl pr-2 text-white opacity-70 ">01</div>
+                        <div class="bg-midnight/30 p-2 rounded-lg flex px-2 lg:px-4 content-center w-full">
+                            <div class="text-4xl md:text-6xl pr-2  text-white opacity-60">01</div>
                             <div class="text-[10px] font-outfit-light content-center">I am stressed that my new facility will not meet my career needs.</div>
                         </div>
 
-                        <div class="bg-midnight/30 p-2 rounded-lg flex px-4 content-center w-full">
-                            <div class="text-5xl pr-2  text-white opacity-70">02</div>
+                        <div class="bg-midnight/30 p-2 rounded-lg flex px-2 lg:px-4 content-center w-full">
+                            <div class="text-4xl md:text-6xl pr-2  text-white opacity-60">02</div>
                             <div class="text-[10px] font-outfit-light content-center">I don’t want to spend all of my free time networking and researching.</div>
                         </div>
                     </div>
 
                     <div class="flex w-full gap-4">
-                        <div class="bg-midnight/30 p-2 rounded-lg flex px-4 content-center w-full">
-                            <div class="text-5xl pr-2  text-white opacity-70">03</div>
+                        <div class="bg-midnight/30 p-2 rounded-lg flex px-2 lg:px-4 content-center w-full">
+                            <div class="text-4xl md:text-6xl pr-2  text-white opacity-60">03</div>
                             <div class="text-[10px] font-outfit-light content-center">I value word-of-mouth reviews and referrals the most.</div>
                         </div>
 
-                        <div class="bg-midnight/30 p-2 rounded-lg flex px-4 content-center w-full">
-                            <div class="text-5xl pr-2  text-white opacity-70">04</div>
+                        <div class="bg-midnight/30 p-2 rounded-lg flex px-2 lg:px-4 content-center w-full">
+                            <div class="text-4xl md:text-6xl pr-2  text-white opacity-60">04</div>
                             <div class="text-[10px] font-outfit-light content-center">I love being able to move cities every few months.</div>
                         </div>
 
-                        <div class="bg-midnight/30 p-2 rounded-lg flex px-4 content-center w-full">
-                            <div class="text-5xl pr-2  text-white opacity-70">05</div>
+                        <div class="bg-midnight/30 p-2 rounded-lg flex px-2 lg:px-4 content-center w-full">
+                            <div class="text-4xl md:text-6xl pr-2  text-white opacity-60">05</div>
                             <div class="text-[10px] font-outfit-light content-center">I want to feel like I have control of my decision.</div>
                         </div>
                     </div>
 
                     <div class="flex w-3/4 gap-4">
-                        <div class="bg-midnight/30 p-2 rounded-lg flex px-4 content-center w-full">
-                            <div class="text-5xl pr-2 text-white opacity-70">06</div>
+                        <div class="bg-midnight/30 p-2 rounded-lg flex px-2 lg:px-4 content-center w-full">
+                            <div class="text-4xl md:text-6xl pr-2  text-white opacity-60">06</div>
                             <div class="text-[10px] font-outfit-light content-center">I believe a different hospital could be a better match for me.</div>
                         </div>
 
-                        <div class="bg-midnight/30 p-2 rounded-lg flex px-4 content-center w-full">
-                            <div class="text-5xl pr-2 text-white opacity-70">07</div>
+                        <div class="bg-midnight/30 p-2 rounded-lg flex px-2 lg:px-4 content-center w-full">
+                            <div class="text-4xl md:text-6xl pr-2  text-white opacity-60">07</div>
                             <div class="text-[10px] font-outfit-light content-center">I struggle making a big decision without having enough relevant information.</div>
                         </div>
                     </div>
