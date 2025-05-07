@@ -87,7 +87,7 @@ function UserPersonas () {
             <div class="col-span-1 px-2 md:px-4 flex flex-col justify-between"> 
 
                 {/* ABT JANE */}
-                <div class="flex flex-col w-full bg-slate/80 font-outfit p-2 md:p-5 rounded-2xl h-full justify-between space-y-1 ">
+                <div class="flex flex-col w-full bg-slate/80 font-outfit py-3 px-2 md:p-5 rounded-2xl h-full justify-between space-y-1 ">
 
                     {/* GENDER */}
                     <div class="md:space-y-1">
@@ -98,13 +98,13 @@ function UserPersonas () {
                     {/* PERSONALITY */}
                     <div class="md:space-y-1">
                         <div class="text-[7px] xl:text-[9px] text-midnight/60">PERSONALITY</div>
-                        <div class="flex flex-wrap font-outfit-light gap-1">
-                            <div class="bg-grass text-[9px] xl:text-sm text-white px-2 py-0.5 rounded-xl">Outgoing</div>
-                            <div class="bg-grass text-[9px] xl:text-sm text-white px-2 py-0.5 rounded-xl">Driven</div>
-                            <div class="bg-grass text-[9px] xl:text-sm text-white px-2 py-0.5 rounded-xl">Active</div>
-                            <div class="bg-grass text-[9px] xl:text-sm  text-white px-2 py-0.5 rounded-xl">Generous</div>
-                            <div class="bg-grass text-[9px] xl:text-sm text-white px-2 py-0.5 rounded-xl">Reliable</div>
-                            <div class="bg-grass text-[9px] xl:text-sm text-white px-2 py-0.5 rounded-xl">Adventurous</div>
+                        <div class="flex flex-wrap font-outfit-light gap-1 py-1">
+                            <div class="bg-grass text-[8px] xl:text-sm text-white px-1 py-0.5 rounded-xl">Outgoing</div>
+                            <div class="bg-grass text-[8px] xl:text-sm text-white px-1 py-0.5 rounded-xl">Driven</div>
+                            <div class="bg-grass text-[8px] xl:text-sm text-white px-1 py-0.5 rounded-xl">Active</div>
+                            <div class="bg-grass text-[8px] xl:text-sm  text-white px-1 py-0.5 rounded-xl">Generous</div>
+                            <div class="bg-grass text-[8px] xl:text-sm text-white px-1 py-0.5 rounded-xl">Reliable</div>
+                            <div class="bg-grass text-[8px] xl:text-sm text-white px-1 py-0.5 rounded-xl">Adventurous</div>
                         </div>
                     </div>
 
