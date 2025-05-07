@@ -19,43 +19,68 @@ import { motion } from "motion/react"
 function BiomePage () {
   return (
   <div class="flex w-full h-full overflow-auto">
-    <div class="flex flex-col items-center space-y-8">
+    <div class="flex flex-col items-center space-y-24">
 
-        <img src={BiomeHeader} class="w-3/4" />
+        <img src={BiomeHeader} class="w-full lg:w-3/4" />
 
     <motion.div 
-        initial={{ opacity: 0, y: -100 }}
+        initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.5, duration: 1.1, ease: 'easeOut' }}
         viewport={{ once: true }}
-    class="w-3/5 my-16">
-        <div class="text-7xl font-castio">biome</div>
-        <div class="text-2xl pb-6">_____________________________________________________</div>
-        <div class="font-outfit text-sm xl:text-md w-4/5">
+    class="w-3/5 py-16">
+        <div class="text-8xl font-castio">biome</div>
+        <div class="text-xl lg:text-2xl pb-6">_________________________________</div>
+        <div class="font-outfit text-sm lg:text-lg xl:text-md w-4/5">
             Biome represents a design concept for a healthcare-focused social 
             media application, providing a space for users to review their work 
             environments and assist those looking to grow their career.</div>
     </motion.div>
 
-    <br/>
-    <div class="bg-midnight w-3/4 flex flex-col items-center rounded-2xl mt-10 pb-4">
+
+    {/* ABOUT */}
+    <div class="bg-midnight w-full lg:w-3/4 flex flex-col items-center rounded-2xl pb-4">
+        
+        {/* TAG */}
         <div class="w-full">
-            <div class="font-outfit-light text-[10px] opacity-85 text-white 
+            <motion.div 
+                initial={{ opacity: 0, y: 40 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.5, duration: 0.8, ease: 'easeOut' }}
+                viewport={{ once: true }}
+                        class="font-outfit-light text-[10px] text-white 
                         bg-grass rounded-2xl w-fit px-2 m-4 py-1">
                             About
-            </div>
+            </motion.div>
         </div>
 
+        {/* TEXT */}
         <div class="w-4/5 flex flex-col items-center">
-            <div class="font-outfit-light text-5xl text-white my-6">A Defining Diagnosis</div>
+            <motion.div 
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.5, duration: 0.8, ease: 'easeOut' }}
+        viewport={{ once: true }}
+        class="font-outfit-light text-4xl lg:text-5xl text-white my-6">A Defining Diagnosis
+        </motion.div>
  
-            <div class="font-outfit-light text-sm text-white text-center w-4/5 my-5">
+            <motion.div 
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.5, duration: 0.8, ease: 'easeOut' }}
+            viewport={{ once: true }}
+            class="font-outfit-light text-xs lg:text-base text-white text-center w-4/5 my-5">
                     Healthcare workers take care of us when we’re at our worst. 
                     <br/>
                     They spend long hours on their feet, tending to traumas and managing medications. 
-            </div>
+            </motion.div>
 
-            <div class="font-outfit-light text-sm text-white text-center w-full my-5">
+            <motion.div 
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.5, duration: 0.8, ease: 'easeOut' }}
+            viewport={{ once: true }} 
+            class="font-outfit-light text-xs lg:text-base lg:text-md text-white text-center w-full my-5">
                 Like at any job, being a part of the right team with the right equipment 
                 can make for better work performance and higher confidence. Healthcare workers 
                 deserve to thrive in environments that suit their needs. For those that are looking 
@@ -63,8 +88,9 @@ function BiomePage () {
                 <div class="font-outfit-bold inline"> 
                      inding new hospitals and facilities shouldn’t have to be a second job.
                 </div> 
-            </div>
+            </motion.div>
 
+            {/* NUMBERS */}
             <div class="grid grid-cols-3 w-full gap-10 mt-8  text-midnight">
                 <motion.div 
                     initial={{ opacity: 0, y: 50 }}
@@ -73,8 +99,8 @@ function BiomePage () {
                     viewport={{ once: true }} class="bg-white rounded-xl w-full">
 
                     <div class="py-8 flex flex-col items-center gap-2">
-                        <div class="font-outfit-bold text-5xl">46%</div>
-                        <div class="font-outfit text-xs text-center w-1/2">of health workers reported often feeling burned out</div>
+                        <div class="font-outfit-bold text-4xl lg:text-5xl">46%</div>
+                        <div class="font-outfit text-xs lg:text-base text-center w-2/3">of health workers reported often feeling burned out</div>
                     </div>
                 </motion.div>
 
@@ -82,8 +108,9 @@ function BiomePage () {
                     initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: 1.0, duration: .9, ease: 'easeOut' }}
-                    viewport={{ once: true }} class="bg-white rounded-xl w-full">
-                    <div class="font-outfit text-center text-sm h-full content-center w-2/3">
+                    viewport={{ once: true }} 
+                    class="flex bg-white rounded-xl w-full place-content-center">
+                    <div class="font-outfit text-center text-xs lg:text-base flex w-2/3 self-center">
                         Health workers reported fewer mental health issues when 
                         they said they work in supportive environments.
                     </div>
@@ -96,13 +123,14 @@ function BiomePage () {
                     transition={{ delay: 1.5, duration: .9, ease: 'easeOut' }}
                     viewport={{ once: true }} class="bg-white rounded-xl w-full">
                     <div class="py-8 flex flex-col items-center gap-2 ">
-                        <div class="font-outfit-bold text-5xl">44%</div>
-                        <div class="font-outfit text-xs text-center w-1/2">
+                        <div class="font-outfit-bold text-4xl lg:text-5xl">44%</div>
+                        <div class="font-outfit text-xs lg:text-base text-center w-2/3">
                         of health workers intended to look for a new job</div>
                     </div>
                 </motion.div>
             </div>
 
+            {/* CREDIT */}
             <motion.div 
                     initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: .2, y: 0 }}
@@ -117,7 +145,8 @@ function BiomePage () {
         </div>
     </div>
 
-    <div class="w-3/4 my-20 relative 
+    {/* BIG PICTURE */}
+    <div class="w-full lg:w-3/4 my-20 relative 
                 after:absolute after:inset-0 after:bg-gradient-to-t 
                 after:from-gray-100 after:via-transparent 
                 after:to-gray-100 after:mix-blend-normal 
@@ -125,105 +154,139 @@ function BiomePage () {
         <img src={ Biome2 } class="" />
     </div>
 
- <div class="w-3/4"><AboutBiome/></div>
+    {/* ABOUT */}
+    <div class="w-full lg:w-3/4"><AboutBiome/></div>
 
-    <div class="w-3/4 flex flex-col items-center rounded-2xl space-y-4">
-        <div class="w-full">
-            <div class="font-outfit-light text-[10px] opacity-85 text-white 
-                        bg-grass rounded-2xl w-fit px-2 mt-4 mb-1 py-1">
+    {/* RESEARCH */}
+    <div class=" flex flex-col w-full lg:w-3/4 items-center rounded-2xl pt-16 ">
+        {/* TAG */}
+        <div class="w-full py-1">
+            <motion.div 
+                initial={{ opacity: 0, y: 40 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.5, duration: 0.8, ease: 'easeOut' }}
+                viewport={{ once: true }}
+                class="font-outfit-light text-[10px] opacity-85 text-white 
+                        bg-grass rounded-2xl w-fit px-2 mb-1 py-1">
                             Research
-            </div>
+            </motion.div>
         </div>
-        
-        <div class="flex flex-col bg-midnight/10 rounded-xl w-full text-midnight pt-2 items-center font-outfit text-midnight h-full overflow-hidden">
+
+        {/* REST */}
+        <div class="flex flex-col bg-midnight/10 rounded-xl w-full text-midnight pt-12 items-center font-outfit text-midnight overflow-hidden">
             
-            <div class="text-4xl text-center">Understanding The Symptoms</div>
-            
-            <br/>
-            <div class="w-2/3 text-xs"> 
+            {/* TITLE */}
+            <motion.div 
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.5, duration: 0.6, ease: 'easeOut' }}
+                viewport={{ once: true }}
+                class="text-4xl text-center">Understanding The Symptoms</motion.div>
+
+            {/* TEXT */}
+            <motion.div 
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.5, duration: 0.6, ease: 'easeOut' }}
+                viewport={{ once: true }} class="flex w-2/3 text-xs py-5"> 
                 <div class=" text-center">A survey was done via Google Forms with travel nurses to gather more information about the travel RN relocation process, the decision-making process, and general questions about working in healthcare.</div>
-            </div>
+            </motion.div>
 
-            <div class="w-[140%] grid grid-cols-5 gap-4 my-8">
 
-            <div class="bg-midnight/30 rounded-lg px-4 flex flex-col content-center py-4 ">
-                    <div class="font-outfit text-[8px] text-center ">What is your primary factor in determining the quality of your role/shift?</div>
-                    <div class="grid grid-cols-5 gap-4  ml-2">
-                        <img src={ graph3 } class="col-span-2" />
+            {/* PIE GRAPHS */}
+            <motion.div 
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.5, duration: 0.6, ease: 'easeOut' }}
+                viewport={{ once: true }}
+                class="w-[140%] grid grid-cols-5 gap-4 my-8">
 
-                        <div class="h-fill content-center  col-span-3">
-                            <div class="flex gap-1 py-1"><div class="bg-midnight rounded-lg h-[8px] w-[8px] "></div> <div class="text-[8px] leading-2"> Staff Ratio</div></div>
-                            <div class="flex gap-1 py-1"><div class="bg-grass rounded-lg h-[8px] w-[8px] "></div> <div class="text-[8px] leading-2"> Scheduling, RTO</div></div>
-                            <div class="flex gap-1 py-1"><div class="bg-bluebird rounded-lg h-[8px] w-[8px] "></div> <div class="text-[8px] leading-2"> Float Parameters</div></div>
+                    <div class="bg-midnight/30 rounded-lg p-2 flex flex-col place-content-center space-y-3">
+                        <div class="font-outfit text-[8px] text-center ">What is your primary factor in determining the quality of your role/shift?</div>
+                        
+                        <div class="grid grid-cols-5 gap-4 ml-2 items-center mx-2 lg:mx-8">
+                            <img src={ graph3 } class="aspect-square p-2 col-span-2" />
+
+                            <div class="h-fill content-center col-span-3">
+                                <div class="flex gap-1 py-1"><div class="bg-midnight rounded-lg h-[8px] w-[8px] "></div> <div class="text-[8px] lg:text-[10px] leading-2"> Staff Ratio</div></div>
+                                <div class="flex gap-1 py-1"><div class="bg-grass rounded-lg h-[8px] w-[8px] "></div> <div class="text-[8px] lg:text-[10px] leading-2"> Scheduling, RTO</div></div>
+                                <div class="flex gap-1 py-1"><div class="bg-bluebird rounded-lg h-[8px] w-[8px] "></div> <div class="text-[8px] lg:text-[10px] leading-2"> Float Parameters</div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-midnight/30 rounded-lg p-2 flex flex-col place-content-center space-y-2 ">
+                        <div class="font-outfit text-[8px] md:text-xs text-center ">What is your primary method for finding a new facility?</div>
+                        
+                        <div class="grid grid-cols-5 gap-4 ml-2 mx-2 lg:mx-4 place-items-center">
+                            <img src={ graph1 } class="aspect-square col-span-2 p-1 lg:p-2 xl:p-4" />
+
+                            <div class="flex flex-col  place-content-center col-span-3">
+                                <div class="flex gap-1 py-1"><div class="bg-midnight aspect-square rounded-lg h-[8px] w-[8px] "></div> <div class="text-[8px] lg:text-[10px] leading-2"> Travel Nursing Agency</div></div>
+                                <div class="flex gap-1 py-1"><div class="bg-grass rounded-lg h-[8px] w-[8px] "></div> <div class="text-[8px] lg:text-[10px] leading-2"> Recommendation</div></div>
+                                <div class="flex gap-1 py-1"><div class="bg-bluebird rounded-lg h-[8px] w-[8px] "></div> <div class="text-[8px] lg:text-[10px] leading-2"> Personal Research</div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-midnight/30 rounded-lg p-2 flex flex-col place-content-center space-y-3">
+                        <div class="font-outfit text-[8px] md:text-xs text-center ">What is your primary factor in making a decision?</div>
+                        
+                        <div class="grid grid-cols-5 gap-4 ml-2 mx-2 lg:mx-4 place-items-center">
+                            <img src={ graph2 } class="aspect-square col-span-2 p-1 lg:p-2 xl:p-4" />
+
+                            <div class="flex flex-col  place-content-center col-span-3">
+                                <div class="flex gap-1 py-1"><div class="bg-midnight rounded-lg h-[8px] w-[8px] "></div> <div class="text-[8px] lg:text-[10px] leading-2"> Location</div></div>
+                                <div class="flex gap-1 py-1"><div class="bg-grass rounded-lg h-[8px] w-[8px] "></div> <div class="text-[8px] lg:text-[10px] leading-2"> Pay Rate</div></div>
+                                <div class="flex gap-1 py-1"><div class="bg-bluebird rounded-lg h-[8px] w-[8px] "></div> <div class="text-[8px] lg:text-[10px] leading-2"> Family/Loved Ones</div></div>
                         </div>
                         </div>
-                </div>
+                    </div>
 
-                <div class="bg-midnight/30 rounded-lg px-4 flex flex-col content-center py-4 gap-3">
-                    <div class="font-outfit text-[8px] text-center ">What is your primary method for finding a new facility?</div>
-                    <div class="grid grid-cols-5 gap-4  ml-2">
-                        <img src={ graph1 } class="col-span-2" />
+                    <div class="bg-midnight/30 rounded-lg p-2 flex flex-col place-content-center space-y-3">
+                        <div class="font-outfit text-[8px] md:text-xs text-center ">What is your primary factor in determining the quality of your role/shift?</div>
+                        
+                        <div class="grid grid-cols-5 gap-4 ml-2 mx-2 lg:mx-4 place-items-center">
+                            <img src={ graph3 } class="aspect-square col-span-2 p-1 lg:p-2 xl:p-4" />
 
-                        <div class="h-fill content-center  col-span-3">
-                            <div class="flex gap-1 py-1"><div class="bg-midnight rounded-lg h-[8px] w-[8px] "></div> <div class="text-[8px] leading-2"> Travel Nursing Agency</div></div>
-                            <div class="flex gap-1 py-1"><div class="bg-grass rounded-lg h-[8px] w-[8px] "></div> <div class="text-[8px] leading-2"> Recommendation</div></div>
-                            <div class="flex gap-1 py-1"><div class="bg-bluebird rounded-lg h-[8px] w-[8px] "></div> <div class="text-[8px] leading-2"> Personal Research</div></div>
+                            <div class="flex flex-col  place-content-center col-span-3">
+                                <div class="flex gap-1 py-1"><div class="bg-midnight rounded-lg h-[8px] w-[8px] "></div> <div class="text-[8px] lg:text-[10px] leading-2"> Staff Ratio</div></div>
+                                <div class="flex gap-1 py-1"><div class="bg-grass rounded-lg h-[8px] w-[8px] "></div> <div class="text-[8px] lg:text-[10px] leading-2"> Scheduling, RTO</div></div>
+                                <div class="flex gap-1 py-1"><div class="bg-bluebird rounded-lg h-[8px] w-[8px] "></div> <div class="text-[8px] lg:text-[10px] leading-2"> Float Parameters</div></div>
+                            </div>
                         </div>
+                    </div>
+
+                    <div class="bg-midnight/30 rounded-lg p-2 flex flex-col place-content-center space-y-3">
+                        <div class="font-outfit text-[8px] md:text-xs text-center ">What is your primary factor in determining the quality of your role/shift?</div>
+                        
+                        <div class="grid grid-cols-5 gap-4 ml-2 mx-2 lg:mx-4 place-items-center">
+                            <img src={ graph4 } class="aspect-square col-span-2 p-1 lg:p-2 xl:p-4" />
+
+                            <div class="flex flex-col  place-content-center col-span-3">
+                                <div class="flex gap-1 py-1"><div class="bg-midnight rounded-lg h-[8px] w-[8px] "></div> <div class="text-[8px] lg:text-[10px] leading-2"> Staff Ratio</div></div>
+                                <div class="flex gap-1 py-1"><div class="bg-grass rounded-lg h-[8px] w-[8px] "></div> <div class="text-[8px] lg:text-[10px] leading-2"> Scheduling, RTO</div></div>
+                                <div class="flex gap-1 py-1"><div class="bg-bluebird rounded-lg h-[8px] w-[8px] "></div> <div class="text-[8px] lg:text-[10px] leading-2"> Float Parameters</div></div>
+                            </div>
                         </div>
-                </div>
+                    </div>
 
-                <div class="bg-midnight/30 rounded-lg px-4 flex flex-col content-center py-4 gap-3">
-                    <div class="font-outfit text-[8px] text-center ">What is your primary factor in making a decision?</div>
-                    <div class="grid grid-cols-5 gap-4  ml-2">
-                        <img src={ graph2 } class="col-span-2" />
-
-                        <div class="h-fill content-center  col-span-3">
-                            <div class="flex gap-1 py-1"><div class="bg-midnight rounded-lg h-[8px] w-[8px] "></div> <div class="text-[8px] leading-2"> Location</div></div>
-                            <div class="flex gap-1 py-1"><div class="bg-grass rounded-lg h-[8px] w-[8px] "></div> <div class="text-[8px] leading-2"> Pay Rate</div></div>
-                            <div class="flex gap-1 py-1"><div class="bg-bluebird rounded-lg h-[8px] w-[8px] "></div> <div class="text-[8px] leading-2"> Family/Loved Ones</div></div>
-                        </div>
-                        </div>
-                </div>
-
-
-                <div class="bg-midnight/30 rounded-lg px-4 flex flex-col content-center py-4 sm:gap-1 md:gap-2">
-                    <div class="font-outfit text-[8px] text-center ">What is your primary factor in determining the quality of your role/shift?</div>
-                    <div class="grid grid-cols-5 gap-4  ml-2">
-                        <img src={ graph3 } class="col-span-2" />
-
-                        <div class="h-fill content-center  col-span-3">
-                            <div class="flex gap-1 py-1"><div class="bg-midnight rounded-lg h-[8px] w-[8px] "></div> <div class="text-[8px] leading-2"> Staff Ratio</div></div>
-                            <div class="flex gap-1 py-1"><div class="bg-grass rounded-lg h-[8px] w-[8px] "></div> <div class="text-[8px] leading-2"> Scheduling, RTO</div></div>
-                            <div class="flex gap-1 py-1"><div class="bg-bluebird rounded-lg h-[8px] w-[8px] "></div> <div class="text-[8px] leading-2"> Float Parameters</div></div>
-                        </div>
-                        </div>
-                </div>
-
-                <div class="bg-midnight/30 rounded-lg px-4 flex flex-col content-center py-4 gap-2">
-                    <div class="font-outfit text-[8px] text-center ">What is your primary factor in determining the quality of your role/shift?</div>
-                    <div class="grid grid-cols-5 gap-4  ml-2">
-                        <img src={ graph4 } class="col-span-2" />
-
-                        <div class="h-fill content-center  col-span-3">
-                            <div class="flex gap-1 py-1"><div class="bg-midnight rounded-lg h-[8px] w-[8px] "></div> <div class="text-[8px] leading-2"> Staff Ratio</div></div>
-                            <div class="flex gap-1 py-1"><div class="bg-grass rounded-lg h-[8px] w-[8px] "></div> <div class="text-[8px] leading-2"> Scheduling, RTO</div></div>
-                            <div class="flex gap-1 py-1"><div class="bg-bluebird rounded-lg h-[8px] w-[8px] "></div> <div class="text-[8px] leading-2"> Float Parameters</div></div>
-                        </div>
-                        </div>
-                </div>
-
-            </div>
-
-            <div class="w-full">
-                <div class="text-lg text-center">Key Interview Findings</div>
-                <br/>
+                </motion.div>
+ 
+            {/* FINDINGS */}
+            <motion.div 
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.5, duration: 0.6, ease: 'easeOut' }}
+                viewport={{ once: true }} class="w-full">
+                <div class="text-lg text-center pb-4">Key Interview Findings</div>
             
 
-                <div class="w-full px-10 flex flex-col items-center gap-4">
+                <div class="w-full h-full px-10 flex flex-col items-center gap-4 ">
 
                     <div class="flex w-3/4 gap-4">
                         <div class="bg-midnight/30 p-2 rounded-lg flex px-4 content-center w-full">
-                            <div class="text-5xl pr-2 text-white opacity-70 ">01</div>
+                            <div class="text-4xl md:text-6xl pr-2 text-white opacity-70 ">01</div>
                             <div class="text-[10px] font-outfit-light content-center">I am stressed that my new facility will not meet my career needs.</div>
                         </div>
 
@@ -263,12 +326,13 @@ function BiomePage () {
                     </div>
 
                 </div>
-            </div>
+            </motion.div>
             <br/>
 
         </div>
-
-        <UserPersonas/>
+    </div>
+    
+        <div class="flex w-full lg:w-3/4 py-8"><UserPersonas/></div>
 
         <div class="py-4 bg-midnight rounded-2xl "><img src={ userflow }/></div>
 
@@ -277,7 +341,7 @@ function BiomePage () {
         <img src={snapshots} class="-my-2"/>
 
         <div class="w-full h-full aspect-[5/4] "><Prototype2 /></div>
-    </div>
+
 
     <div class="flex w-3/4"><StyleGuide/></div>
 

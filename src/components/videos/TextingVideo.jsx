@@ -3,7 +3,7 @@ import nursevideo from '../../assets/media/NurseVideo.mp4'
 
 const TextingVideo = () => {
   return (
-    <div>
+    <div class="w-full">
       <video class="rounded-xl" autoPlay loop>
         <source src={ nursevideo }/></video>
     </div>
