@@ -9,9 +9,9 @@ import BiomePage from "./components/Biome";
 function App() {
   return (
     <>
-    <div class=" w-screen h-screen bg-gray-100 ">
+    <div class="w-screen h-screen bg-gray-100 ">
       <Navbar />
-      <div  class="flex w-screen h-[calc(100vh-128px)] overflow-hidden">
+      <div  class="flex w-full h-[calc(100vh-128px)] overflow-hidden">
         <Routes >
         <Route path="/" element={<HomePage />} />
         <Route path="/portfolio"  element={<PortfolioPage />}/>
