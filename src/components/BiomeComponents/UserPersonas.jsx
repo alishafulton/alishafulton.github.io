@@ -73,7 +73,7 @@ function UserPersonas () {
 
                 {/* QUOTE */}
                 <div class="flex w-full bg-grass rounded-2xl justify-center">
-                    <div class="text-sm/6 text-white font-outfit-light  w-3/4 lg:w-3/5 py-6">
+                    <div class="text-sm/5 lg:text-sm/6 text-white font-outfit-light  w-3/4 lg:w-3/5 py-6">
                         “My job is very rewarding, but it comes with it’s own challenges. 
                         I use an agency to find new hospitals and often can’t get many 
                         questions I have answered. <span class="inline font-outfit-bold">I would love to be able to walk into 
@@ -87,7 +87,7 @@ function UserPersonas () {
             <div class="col-span-1 px-2 md:px-4 flex flex-col justify-between"> 
 
                 {/* ABT JANE */}
-                <div class="flex flex-col w-full bg-slate/80 font-outfit p-3 md:p-5 rounded-2xl h-full justify-between space-y-1 ">
+                <div class="flex flex-col w-full bg-slate/80 font-outfit p-2 md:p-5 rounded-2xl h-full justify-between space-y-1 ">
 
                     {/* GENDER */}
                     <div class="md:space-y-1">
@@ -125,7 +125,7 @@ function UserPersonas () {
                 </div>
 
                 {/* ABT SAM */}
-                <div class="flex flex-col w-full bg-slate/80 font-outfit p-3 md:p-5 rounded-2xl space-y-3 h-full justify-between space-y-1">
+                <div class="flex flex-col w-full bg-slate/80 font-outfit p-2 md:p-5 rounded-2xl space-y-3 h-full justify-between space-y-1">
 
                     {/* GENDER */}
                     <div class="lg:space-y-1">
@@ -162,7 +162,7 @@ function UserPersonas () {
 
                 {/* QUOTE */}
                 <div class="flex w-full bg-grass rounded-2xl justify-center">
-                    <div class="text-sm/6 text-white font-outfit-light  w-3/4 lg:w-3/5 py-6">
+                    <div class="text-sm/5 lg:text-sm/6 text-white font-outfit-light  w-3/4 lg:w-3/5 py-6">
                         “I’ve been at the same hospital for a while, and I really value 
                         the up-to-date facility and the encouragement to publish in journals. 
                         Now that I’m moving, <span class="inline font-outfit-bold">I want to 
