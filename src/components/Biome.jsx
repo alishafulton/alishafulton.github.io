@@ -18,7 +18,7 @@ import { motion } from "motion/react"
 
 function BiomePage () {
   return (
-  <div class="flex w-full h-full overflow-auto">
+  <div class="flex w-full h-full">
     <div class="flex flex-col items-center space-y-24">
 
         <img src={BiomeHeader} class="w-full lg:w-3/4" />
