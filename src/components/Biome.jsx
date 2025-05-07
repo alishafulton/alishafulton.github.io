@@ -110,7 +110,7 @@ function BiomePage () {
                     transition={{ delay: 1.0, duration: .9, ease: 'easeOut' }}
                     viewport={{ once: true }} 
                     class="flex bg-white rounded-xl w-full place-content-center">
-                    <div class="font-outfit text-center text-xs lg:text-base flex w-2/3 self-center">
+                    <div class="font-outfit text-center text-xs lg:text-base flex w-4/5 lg:w-2/3 self-center">
                         Health workers reported fewer mental health issues when 
                         they said they work in supportive environments.
                     </div>
@@ -135,8 +135,8 @@ function BiomePage () {
                     initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: .2, y: 0 }}
                     transition={{ delay: 1.7, duration: .9, ease: 'easeOut' }}
-                    viewport={{ once: true }} class="text-[8px] text-white opacity-25 font-outfit-light pt-1 pb-2 w-full">
-                <div class="w-5/6">Nigam JA, Barker RM, Cunningham TR, Swanson NG, Chosewood LC. 
+                    viewport={{ once: true }} class="text-[6px] lg:text[8px] text-white opacity-25 font-outfit-light pt-1 pb-2 w-full">
+                <div class="w-full lg:w-5/6">Nigam JA, Barker RM, Cunningham TR, Swanson NG, Chosewood LC. 
                 Vital Signs: Health Worker–Perceived Working Conditions and Symptoms of Poor Mental 
                 Health — Quality of Worklife Survey, United States, 2018–2022. MMWR Morb Mortal Wkly 
                 Rep 2023;72:1197–1205. DOI: http://dx.doi.org/10.15585/mmwr.mm7244e1</div>
