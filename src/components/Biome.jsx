@@ -38,7 +38,7 @@ function BiomePage () {
     </motion.div>
 
 
-    {/* ABOUT */}
+    {/* FACTS */}
     <div class="bg-midnight w-full lg:w-3/4 flex flex-col items-center rounded-2xl pb-4">
         
         {/* TAG */}
@@ -91,7 +91,7 @@ function BiomePage () {
             </motion.div>
 
             {/* NUMBERS */}
-            <div class="grid grid-cols-3 w-full gap-10 mt-8  text-midnight">
+            <div class="grid grid-cols-3 w-full gap-6 lg:gap-10 mt-8  text-midnight">
                 <motion.div 
                     initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
