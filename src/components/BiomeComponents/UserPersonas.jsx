@@ -125,7 +125,7 @@ function UserPersonas () {
                 </div>
 
                 {/* ABT SAM */}
-                <div class="flex flex-col w-full bg-slate/80 font-outfit p-2 md:p-5 rounded-2xl space-y-3 h-full justify-between space-y-1">
+                <div class="flex flex-col w-full bg-slate/80 font-outfit py-3 px-2 md:p-5 rounded-2xl h-full justify-between space-y-1 ">
 
                     {/* GENDER */}
                     <div class="lg:space-y-1">
@@ -135,14 +135,14 @@ function UserPersonas () {
 
                     {/* PERSONALITY */}
                     <div class="lg:space-y-1">
-                        <div class="text-[7px] xl:text-[9px] text-midnight/60 text-end">PERSONALITY</div>
-                        <div class="flex flex-wrap font-outfit-light gap-1 justify-end">
-                            <div class="bg-grass text-[9px] xl:text-sm text-white px-2 py-0.5 rounded-xl">Patient</div>
-                            <div class="bg-grass text-[9px] xl:text-sm text-white px-2 py-0.5 rounded-xl">Confident</div>
-                            <div class="bg-grass text-[9px] xl:text-sm text-white px-2 py-0.5 rounded-xl">Independent</div>
-                            <div class="bg-grass text-[9px] xl:text-sm text-white px-2 py-0.5 rounded-xl">Devoted</div>
-                            <div class="bg-grass text-[9px] xl:text-sm text-white px-2 py-0.5 rounded-xl">Sensible</div>
-                            <div class="bg-grass text-[9px] xl:text-sm text-white px-2 py-0.5 rounded-xl">Charismatic</div>
+                        <div class="text-[7px] xl:text-[9px] text-midnight/60">PERSONALITY</div>
+                        <div class="flex flex-wrap font-outfit-light gap-1 py-1">
+                            <div class="bg-grass text-[8px] xl:text-sm text-white px-1 py-0.5 rounded-xl">Patient</div>
+                            <div class="bg-grass text-[8px] xl:text-sm text-white px-1 py-0.5 rounded-xl">Confident</div>
+                            <div class="bg-grass text-[8px] xl:text-sm text-white px-1 py-0.5 rounded-xl">Independent</div>
+                            <div class="bg-grass text-[8px] xl:text-sm text-white px-1 py-0.5 rounded-xl">Devoted</div>
+                            <div class="bg-grass text-[8px] xl:text-sm text-white px-1 py-0.5 rounded-xl">Sensible</div>
+                            <div class="bg-grass text-[8px] xl:text-sm text-white px-1 py-0.5 rounded-xl">Charismatic</div>
                             
                         </div>
                     </div>
