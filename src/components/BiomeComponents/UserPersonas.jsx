@@ -25,14 +25,14 @@ function UserPersonas () {
             <div class=" col-span-2 flex flex-col justify-between space-y-4">
 
                 {/* IMAGE */}
-                <div class="w-full relative ">
+                <div class="flex w-full relative ">
                     <img src={nursepersona} class="rounded-xl"/>
 
-                    <div class="flex flex-col w-4/5 lg:w-2/3 absolute bottom-3 right-3 space-y-2 lg:space-y-3 text-end items-end">
-                        <div class=" bg-white/60 font-outfit-light text-xl/6 lg:text-3xl backdrop-blur-sm px-3 lg:px-4 py-1 lg:py-2 rounded-3xl ">
+                    <div class="flex flex-col w-7/8 lg:w-2/3 absolute bottom-1 lg:bottom-3 right-1 lg:right-3 space-y-1 lg:space-y-3 text-end items-end">
+                        <div class=" bg-white/60 font-outfit-light text-xl/6 lg:text-3xl backdrop-blur-sm px-2 lg:px-4 py-1 lg:py-2 rounded-xl lg:rounded-3xl ">
                             Jane, 25
                         </div>
-                        <div class=" bg-white/60 font-outfit-light text-[8px] lg:text-[10px]/4 backdrop-blur-sm px-3 lg:px-4 py-1 lg:py-2 rounded-2xl ">
+                        <div class=" bg-white/60 font-outfit-light text-[8px] lg:text-[10px]/4 backdrop-blur-sm px-2 lg:px-4 py-1 lg:py-2 rounded-xl lg:rounded-2xl ">
                             Jane has been a travel nurse for four years, working in 9 
                             different facilities as a registered RN. She takes pride in 
                             the work that she does, but struggles with finding new 
