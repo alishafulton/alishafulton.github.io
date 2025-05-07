@@ -28,10 +28,10 @@ function BiomePage () {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.5, duration: 1.1, ease: 'easeOut' }}
         viewport={{ once: true }}
-    class="w-3/5 py-16">
+    class="w-4/5 lg:w-3/5 py-16">
         <div class="text-5xl lg:text-8xl font-castio">biome</div>
         <div class="text-base  lg:text-2xl pb-6">______________________________________________</div>
-        <div class="font-outfit text-sm lg:text-lg xl:text-md w-full lg:w-4/5">
+        <div class="font-outfit text-sm lg:text-lg xl:text-base w-full lg:w-4/5">
             Biome represents a design concept for a healthcare-focused social 
             media application, providing a space for users to review their work 
             environments and assist those looking to grow their career.</div>
