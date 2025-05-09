@@ -44,7 +44,7 @@ function StyleGuide () {
                     </div>
                     </div>
 
-                    <div class="grid grid-cols-6 w-full h-1/8 gap-16 lg:gap-30">
+                    <div class="grid grid-cols-6 w-full h-1/8 gap-10 lg:gap-30">
                         <div>
                             <img src={ icon1 }/>
                         </div>
