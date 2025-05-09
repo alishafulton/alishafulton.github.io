@@ -18,28 +18,28 @@ import { motion } from "motion/react"
 
 function BiomePage () {
   return (
-  <div class="flex w-full h-full overflow-auto">
+  <div class="flex flex-col w-full h-full overflow-auto space-y-24">
     <div class="flex flex-col w-full items-center space-y-24">
 
         <img src={BiomeHeader} class="w-full lg:w-3/4" />
 
-    <motion.div 
-        initial={{ opacity: 0, y: 100 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.5, duration: 1.1, ease: 'easeOut' }}
-        viewport={{ once: true }}
-    class="w-4/5 lg:w-3/5 py-16">
-        <div class="text-5xl lg:text-8xl font-castio">biome</div>
-        <div class="bg-black flex w-full h-[2px] my-4"></div>
-        <div class="font-outfit text-sm lg:text-base w-4/5">
-            Biome represents a design concept for a healthcare-focused social 
-            media application, providing a space for users to review their work 
-            environments and assist those looking to grow their career.</div>
-    </motion.div>
+        <motion.div 
+            initial={{ opacity: 0, y: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.5, duration: 1.1, ease: 'easeOut' }}
+            viewport={{ once: true }}
+        class="w-4/5 lg:w-3/5 py-16">
+            <div class="text-5xl lg:text-8xl font-castio">biome</div>
+            <div class="bg-black flex w-full h-[2px] my-4"></div>
+            <div class="font-outfit text-sm lg:text-base w-4/5">
+                Biome represents a design concept for a healthcare-focused social 
+                media application, providing a space for users to review their work 
+                environments and assist those looking to grow their career.</div>
+        </motion.div>
 
 
-    {/* FACTS */}
-    <div class="bg-midnight w-full lg:w-3/4 flex flex-col items-center rounded-2xl pb-4">
+        {/* FACTS */}
+        <div class="bg-midnight w-full lg:w-3/4 flex flex-col items-center rounded-2xl pb-4">
         
         {/* TAG */}
         <div class="w-full">
@@ -143,22 +143,22 @@ function BiomePage () {
             </motion.div>
 
         </div>
-    </div>
+        </div>
 
-    {/* BIG PICTURE */}
-    <div class="flex w-full lg:w-3/4 my-20 relative 
+        {/* BIG PICTURE */}
+        <div class="flex w-full lg:w-3/4 my-20 relative 
                 after:absolute after:inset-0 after:bg-gradient-to-t 
                 after:from-gray-100 after:via-transparent 
                 after:to-gray-100 after:mix-blend-normal 
                 before:absolute before:inset-0 before:z-10">
         <img src={ Biome2 } class="" />
-    </div>
+        </div>
 
-    {/* ABOUT */}
-    <div class="flex w-full lg:w-3/4"><AboutBiome/></div>
+        {/* ABOUT */}
+        <div class="flex w-full lg:w-3/4"><AboutBiome/></div>
 
-    {/* RESEARCH */}
-    <div class=" flex flex-col w-full lg:w-3/4 items-center rounded-2xl pt-16 ">
+        {/* RESEARCH */}
+        <div class=" flex flex-col w-full lg:w-3/4 items-center rounded-2xl pt-16 ">
         {/* TAG */}
         <div class="w-full py-1">
             <motion.div 
@@ -330,22 +330,28 @@ function BiomePage () {
             <br/>
 
         </div>
-    </div>
+        </div>
     
         <div class="flex w-full lg:w-3/4 py-8"><UserPersonas/></div>
 
         <div class="flex w-full lg:w-3/4 py-4 bg-midnight rounded-2xl "><img src={ userflow }/></div>
+        
+    </div>
 
+    <div class="flex flex-col w-full items-center space-y-0">
+        
         <div class="flex w-full lg:w-3/4 h-full aspect-[5/4] -mt-10"><Prototype1 /></div>
 
         <div class="flex w-full lg:w-3/4 "><img src={snapshots} class="-my-2"/></div>
 
         <div class="flex w-full lg:w-3/4  h-full aspect-[5/4] "><Prototype2 /></div>
+    </div>  
+
+        <div class="flex w-full lg:w-3/4 place-self-center"><StyleGuide/></div>
+        
 
 
-    <div class="flex w-3/4"><StyleGuide/></div>
-
-    </div>
+    
   </div> 
   );
 }
